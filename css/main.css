@@ -1,5 +1,8 @@
 /* basic stylings */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin:0;
@@ -7,16 +10,5 @@
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-}
-
-#James {
-  color:#003366;
-  font-size: 3em;
-  font-weight: 300;
-}
-
-#Azwad {
-  color:#660005;
-  font-size: 3em;
-  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
 }

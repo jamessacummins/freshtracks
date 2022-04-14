@@ -15,7 +15,7 @@
 
 
 <nav  class="navbar navbar-expand-lg navbar-light bg-light" >
-<img src="images/Fresh Tracks logo CMYK.jpg" width="300" height="75" alt="">
+<img src="Images/Fresh Tracks logo CMYK.jpg" width="300" height="75" alt="">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon" ></span>
   </button>
@@ -65,7 +65,7 @@
 
 
 <div class ="container">
-  <img class="image1" src="images/homeImage.jpeg" >
+  <img class="image1" src="Images/homeImage.jpeg" >
   <!-- Text top half -->
   <div class="rantexttop" href="#"> 
     Fresh Tracks helps people with brain injuries get on the tracks outside
@@ -83,7 +83,7 @@
 <!-- Text bottom top of bottom page -->
 <div class = "topb">
   <div class="subheadings" href="#">HOW WE HELP</div>
-  <img class="brainim" src="images/PngItem_2379728.png" >
+  <img class="brainim" src="Images/PngItem_2379728.png" >
   <div class="btext" href="#">
     Our activity based programs aim to simulate the brain, improve strength and build social
     connections in young people who ahve suffered and acquired brain injury
@@ -96,7 +96,7 @@
 <!-- Text bottom bottom of bottom page -->
 <div class ="botb">
   <div class="subheadings" href="#">OUR PROGRAMS</div>
-  <img class="bikeim" src="images/71422.png" >
+  <img class="bikeim" src="Images/71422.png" >
   <div class="btext1" href="#">
     Cycle Hubs that allow even those with minimal leg use to push themselves around the tracks.
   </div>
