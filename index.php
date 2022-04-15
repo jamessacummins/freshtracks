@@ -13,7 +13,9 @@
 
 <body>
     <nav>
-        Hello
+        <div id="nav-logo-container">
+            <img src="img/logo.svg" id="nav-logo">
+        </div>
     </nav>
     <script src="js/main.js"></script>
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min,js"></script>
