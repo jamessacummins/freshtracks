@@ -292,17 +292,17 @@
 }
 
 #first-hero-image{
-    width:100%;
+    width:50%;
     height:350px;
     object-fit:cover;
 
     position:absolute;
     top:0;
-    left:0;
+    right:0;
 }
 
 #first-hero-overlay {
-    background-image: linear-gradient(90deg, #FFF5DAff, 55%, #FFF5DAaa, 90%, #FFF5DA00);
+    background-image: linear-gradient(90deg, #FFF5DAff 50%, #FFF5DAaa 75%, #FFF5DA00 100%);
     width:100%; 
     height:350px;
 
@@ -327,6 +327,7 @@
     font-weight:600;
     font-size:40px;
     width:600px;
+    max-width:92%;
 }
 
 #second-hero-container {
@@ -350,17 +351,18 @@
 #second-hero-image{
 
     background-image:url("../Images/hero-image-2.JPG");
-    width:100%;
+    width:50%;
     height:350px;
     background-size:cover;
+    background-position: top center;
 
     position:absolute;
     top: 0px;
-    left:0;
+    right:0;
 }
 
 #second-hero-overlay {
-    background-image: linear-gradient(90deg, #FF8800ff, 55%, #FF8800aa, 90%, #FF880000);
+    background-image: linear-gradient(90deg, #FF8800ff 50%, #FF8800aa 75%, #FF880000 100%);
     width:100%; 
     height:350px;
 
@@ -372,19 +374,52 @@
 
 #second-hero-heading-container{
     z-index:400;
-    width:100%;
-    max-width:1000px;
+
+    width:1000px;
+    max-width:100%;
 
     color:#121212;
     font-weight:700;
     font-size:500;
+
+    display:flex;
+    flex-direction: column;
 }
 
 #second-hero-heading{
-    color:#121212;
+    color:#fff;
     font-weight:600;
     font-size:40px;
+
     width:600px;
+    max-width: 100%;
+}
+#hero-donate-button-container{
+    margin-top:32px;
+
+    width:600px;
+    max-width: 100%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-donate-button{
+    cursor:pointer;
+    padding: 16px 64px;
+    background-color:white;
+    width:fit-content;
+
+    user-select: none;
+
+    border-radius: 4px;
+    
+    color:#000;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+
+    box-shadow: 0px 2.51252px 12.5626px 3.76879px rgba(82, 82, 82, 0.1);
 }
 
 .topb{
