@@ -6,276 +6,16 @@
 .Main {
     width: 100%;
     min-height: 100vh;
-    padding-left: 0%;
-    padding-right: 0%;
-    border: 0%;
-    box-sizing: border-box;
-    overflow: hidden;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
 }
-
-
-.footer-item {
-    font-size: 15px;
-    margin-left: 10px;
-
-}
-
-.footerR {
-    font-size: 15px;
-    border: 10px;
-    margin-right: 10px;
-    color: white;
-    margin-left: 900px;
-}
-
-
-
-.MainHomeImage {
-    width: 140%;
-    right: 20%;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.MainText {
-    width: 100%;
-    min-height: 50vh;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-
-}
-
-.MainImagetextTop {
-    top: 35%;
-    left: 100px;
-    font-size: 40px;
-    font-size: calc(1rem +1vw);
-    color: black;
-    width: 50%;
-    max-width: 50vw;
-    text-align: center;
-    position: absolute;
-    font-weight: 500;
-}
-
-.MainImagetextBot {
-    top: 85%;
-    bottom: 400px;
-    left: 100px;
-    font-size: 40px;
-    font-size: calc(1rem +1vw);
-    color: white;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    font-weight: 500;
-
-}
-
-.dnButton {
-    height: 50px;
-    width: 20%;
-    top: 95%;
-    position: absolute;
-    left: 20%;
-    font-size: 30px;
-    outline: auto;
-    outline-style: solid;
-    color: black;
-    border-radius: 5px;
-    border: 5px;
-    outline-color: white;
-    background-color: white;
-
-}
-
-.topb {
-    width: 100%;
-    min-height: 50vh;
-    padding-left: 0%;
-    padding-right: 0%;
-    box-sizing: border-box;
-    overflow: visible;
-    position: relative;
-
-}
-
-.subheadings {
-    margin-top: 90px;
-    margin-left: 4%;
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    font-weight: 500;
-
-}
-
-.btext {
-    top: 40px;
-    margin-left: 28%;
-    font-size: 30px;
-    font-weight: 500;
-    width: 50%;
-    text-align: center;
-    position: relative;
-}
-
-
-.brainim {
-    width: 10%;
-    margin-left: 47%;
-    position: relative;
-    top: 30px;
-
-}
-
-
-.MidPage {
-    width: 100%;
-    padding: 0px;
-    min-height: 140px;
-    border: 0px;
-    overflow: visible;
-    position: relative;
-    z-index: 0;
-}
-
-.MidImage {
-    width: 110%;
-    top: 90%;
-    right: 5%;
-    position: relative;
-    z-index: 5;
-}
-
-.MidHeading {
-    top: 25%;
-    margin-left: 28%;
-    color: white;
-    font-size: 60px;
-    font-weight: 500;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    z-index: 10;
-}
-
-.MidText {
-    top: 37%;
-    margin-left: 28%;
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    z-index: 999;
-}
-
-
-.BotPage {
-    background-color: white;
-    height: 75vh;
-    width: 100%;
-    bottom: 200px;
-    overflow: visible;
-    position: relative;
-}
-
-.BotImage {
-    top: 10%;
-    width: 40%;
-    bottom: 45vh;
-    left: 60px;
-    position: relative;
-    right: 50px;
-}
-
-.BotHeading {
-    top: 0%;
-    margin-left: 38%;
-    color: Black;
-    font-size: 60px;
-    font-weight: 500;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-}
-
-.BotText {
-    top: 20%;
-    bottom: 120px;
-    margin-left: 46%;
-    color: Black;
-    font-size: 25px;
-    font-weight: 400;
-    width: 50%;
-    text-align: left;
-    position: absolute;
-}
-
-
-.DonateSec {
-    background-color: #FF8800;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.DonateHeading {
-    bottom: 70%;
-    margin-left: 100px;
-    color: white;
-    font-size: 70px;
-    font-weight: 500;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-}
-
-.DonateImage {
-    margin-left: 60%;
-    bottom: 5%;
-    position: absolute;
-    width: 35%
-}
-
-.DonateText {
-    bottom: 40%;
-    margin-left: 180px;
-    color: white;
-    font-size: 35px;
-    font-weight: 500;
-    width: 40%;
-    text-align: center;
-    position: absolute;
-}
-
-.DonateBot {
-    width: 500px;
-    bottom: 20%;
-    height: 100px;
-    position: absolute;
-    left: 15%;
-    font-size: 30px;
-    outline: auto;
-    outline-style: solid;
-    color: black;
-    border-radius: 5px;
-    border: 5px;
-    outline-color: white;
-    background-color: white;
-}
-
-
 /* ---- Hero Image Styling ----- */
 
 #parent-hero-container{
-    position:absolute;
+    height:650px;
     width:100%;
     text-align: center;
 }
@@ -314,12 +54,16 @@
 
 #first-hero-heading-container{
     z-index:200;
-    width:100%;
-    max-width:1000px;
+    width:1000px;
+    max-width:94%;
 
     color:#121212;
     font-weight:700;
     font-size:500;
+
+    display:flex;
+    flex-direction: column;
+    
 }
 
 #first-hero-heading{
@@ -376,7 +120,7 @@
     z-index:400;
 
     width:1000px;
-    max-width:100%;
+    max-width:94%;
 
     color:#121212;
     font-weight:700;
@@ -422,6 +166,103 @@
     box-shadow: 0px 2.51252px 12.5626px 3.76879px rgba(82, 82, 82, 0.1);
 }
 
-.topb{
-    margin-top:700px;
+#hero-space{
+    height:650px;
+}
+
+/* --- Styling for Classes with Text Chunks --- */
+
+.section-container{
+    width: 100%;
+    padding:64px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    position:relative;
+}
+.section {
+    z-index: 10;
+    width: 90%;
+    max-width:1000px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-subheading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.section-two-column-container{
+    width:100%;
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:50px;
+}
+.section-column{
+    max-width:100%;
+    width:450px;
+}
+
+.section-text {
+    margin-top:32px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color:inherit;
+}
+
+.section-icon {
+    margin-top:32px;
+    width: 100px;
+}
+.section-image{
+    margin-top: 32px;
+    width:100%;
+    border: white 3px solid;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+.section-background-overlay{
+    display:none;
+    position: absolute;
+    top:0;
+    padding:inherit;
+    height:100%;
+    width:100%;
+    background-color: #00000099;
+}
+
+/* Styling for individual sections */
+
+#how-we-help{
+    background-color: #fefefe;
+}
+
+#our-vision{
+    background: url("/Images/our-vision.jpg");
+    background-size:cover;
+
+    color:#fff;
+}
+
+#our-vision .section-background-overlay {
+    display:initial;
+}
+#our-vision .section .section-subheading {
+    color:#fff;
+}
+#our-vision .section .section-text {
+    color:#fff;
+}
+
+#why-we-started {
+    background-color:#eaeaea;
 }
