@@ -214,7 +214,7 @@
 .section-text {
     margin-top:32px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
     color:inherit;
 }
@@ -265,4 +265,22 @@
 
 #why-we-started {
     background-color:#eaeaea;
+}
+
+/* ---- Media queries ---- */
+
+@media (max-width:600px){
+    #first-hero-heading, #second-hero-heading{
+        font-size: 26px;
+    }
+    #hero-donate-button {
+        font-size:22px;
+        padding: 8px 32px;
+    }
+    .section-subheading{
+        font-size: 26px;;
+    }
+    .section-text{
+        font-size: 18px;
+    }
 }
