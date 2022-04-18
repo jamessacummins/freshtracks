@@ -24,7 +24,7 @@
       <img class="logo" src="Images/logo.svg" href="/">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">Volunteer</a>
           </li>
           <li class="nav-item">
@@ -53,10 +53,34 @@
         </ul>
       </div>
       <button type="button" class="donateNav btn-outline-primary">Donate</button>
-      <a id="nav-mobile-hamburger" onclick="loadMobileNavOptions()">
+      <a id="nav-mobile-hamburger" onclick="toggleMobileNavOptions()">
       </a>
     </nav>
     <div class="nav-space"></div>
+
+    <div id="nav-mobile-options-container">
+      <div class="nav-mobile-option">
+        Volunteer
+      </div>
+      <div class="nav-mobile-option">
+        Services
+      </div>
+      <div class="nav-mobile-option">
+        Stories
+      </div>
+      <div class="nav-mobile-option">
+        Acquired Brain Injuries
+      </div>
+      <div class="nav-mobile-option">
+        Contact
+      </div>
+      <div class="nav-mobile-option">
+        Login
+      </div>
+      <div class="nav-mobile-option">
+        Donate
+      </div>
+    </div>
 
     <div id="parent-hero-container">
       <div id="first-hero-container">
@@ -116,37 +140,32 @@
     <div class="section-container" id="why-we-started">
       <div class="section">
         <div class="section-subheading">why we started</div>
-        <div class="section-two-column-container">
-          <div class="section-column">
-            <img class="section-image" src="Images/sam.JPG">
-            </img>
-          </div>
-          <div class="section-column">
-            <div class="section-text">
-              Fresh Tracks Foundation was started by the friends and family of Sam Carson, aged 26 who suffered an
-              acquired
-              brain injury (ABI) in October 2009.
-              <br>
-              <br>
-              When Sam left Rehab his family and extended network had huge difficulties finding support to continue his
-              recovery. It was for this reason that they came together to form the Freshtracks Foundation to assist Sam
-              and
-              other young Australians work to recover from an acquired brain injury.
-              <br>
-              <br>
+        <img class="section-image shadow" src="Images/sam.JPG">
+        </img>
+        <div class="section-text">
+          Fresh Tracks Foundation was started by the friends and family of Sam Carson, aged 26 who suffered an
+          acquired
+          brain injury (ABI) in October 2009.
+          <br>
+          <br>
+          When Sam left Rehab his family and extended network had huge difficulties finding support to continue his
+          recovery. It was for this reason that they came together to form the Freshtracks Foundation to assist Sam
+          and
+          other young Australians work to recover from an acquired brain injury.
+          <br>
+          <br>
 
-              Throughout the last 13 years we have partnered with some wonderful organisations and worked with amazing
-              and
-              brave
-              individuals. Throughout this journey we have found our services which both stimulate the brain directly
-              and
-              indirectly through exercise of the body have produced the greatest benefits. Our programs now focus on
-              primarily
-              on supervised outdoor and home-based recumbent cycling.
+          Throughout the last 13 years we have partnered with some wonderful organisations and worked with amazing
+          and
+          brave
+          individuals. Throughout this journey we have found our services which both stimulate the brain directly
+          and
+          indirectly through exercise of the body have produced the greatest benefits. Our programs now focus on
+          primarily
+          on supervised outdoor and home-based recumbent cycling.
 
-            </div>
-          </div>
         </div>
+
       </div>
     </div>
 
@@ -166,6 +185,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min,js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.boostrapcdn.com/boostrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
