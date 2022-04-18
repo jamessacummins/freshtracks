@@ -247,7 +247,7 @@
 }
 
 #our-vision{
-    background: url("/Images/our-vision.jpg");
+    background: url("Images/our-vision.jpg");
     background-size:cover;
 
     color:#fff;
