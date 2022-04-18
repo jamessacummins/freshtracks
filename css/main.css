@@ -58,7 +58,7 @@
   width: 100px;
 }
 .section-image{
-  margin-top: 32px;
+  margin: 64px 0 32px;
   width:100%;
   max-width: 600px;
   border: white 3px solid;
