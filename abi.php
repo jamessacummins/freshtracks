@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/ABI.css">
+    <link rel="stylesheet" href="css/abi.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -23,15 +23,12 @@
 
         <?php include "nav.php" ?>
 
-        <div id="parent-hero-container">
-            <div id="first-hero-container">
-                <div id="first-hero-heading-container">
-                    <div id="first-hero-heading">
-                        Aquaired Brain Injuries
-                    </div>
-                    <img src="Images/ABITop.png" id="first-hero-image">
-                </div>
+        <div class="parent-topbar-container" id="abi-topbar-parent">
+            <div class="topbar-overlay"></div>
+            <div class="topbar-container">
+                Acquired Brain Injuries
             </div>
+        </div>
 
 
             <div class="section-container" id="what-is-an-abi">

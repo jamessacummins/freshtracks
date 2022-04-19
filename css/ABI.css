@@ -1,16 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+/* ---- Styling for topbar ---- */
 
-.Main {
-    width: 100%;
-    min-height: 100vh;
-    
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
+#abi-topbar-parent{
+    background-image: url("../Images/abi-topbar.jpg");
+    background-size: cover;
+    background-position: 50% 10%;
 }
 
 
