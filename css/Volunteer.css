@@ -4,66 +4,10 @@
   padding: 0;
 }
 
-.Main {
-  width: 100%;
-  min-height: 100vh;
-  
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-}
-
-
-#parent-hero-container{
-  height:auto;
-  width:100%;
-  text-align: center;
-}
-
-#first-hero-container {
-  width:100%;
-  height:350px;
-  position:relative;
-
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-#first-hero-image{
-  width:100%;
-  height:250px;
-  object-fit:cover;
-
-  position:absolute;
-  top:0;
-  right:0;
-}
-
-#first-hero-heading-container{
-  z-index:200;
-  width:800px;
-  max-width:94%;
-
-  color:#121212;
-  font-weight:700;
-  font-size:500;
-
-  display:flex;
-  flex-direction: column;
-  
-}
-
-#first-hero-heading{
-  color:white;
-  font-weight:600;
-  font-size:60px;
-  width:600px;
-  max-width:92%;
-  z-index: 5;
+#volunteer-topbar-parent{
+  background-image: url("../Images/volunteer-topbar.JPG");
+  background-size: cover;
+  background-position: 50% 30%;
 }
 
 input[type=text], select, textarea {
@@ -75,6 +19,10 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.section-subheading{
+  margin-top: 32px;
 }
   input[type=submit] {
     background-color: #FF8800;
@@ -92,8 +40,10 @@ input[type=text], select, textarea {
   }
   
   .container {
+    margin: 32px 0;
     height:650px;
-    width:50%;
+    width:90%;
+    max-width:900px;
     text-align: center;
   }
 
