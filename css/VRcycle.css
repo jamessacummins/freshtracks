@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#abi-topbar-parent {
+    background-image: url("../Images/VrCycle-topbar.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+#why-home-cycling {
+    background-color: #FFF5DA;
+    background-size: cover;
+    background-position: 20% 50%;
+    color: #fff;
+}
+
+#what-is-the-vrcycle {
+    background-color: #FFC300;
+    background-size: cover;
+    background-position: 20% 50%;
+    color: #fff;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+    position: relative;
+
+    display:inline-block;
+
+
+
+}
+
+
+#what-is-the-vrcycle .section-text {
+    float: left;
+    max-width: 40%;
+    min-width: 20%;
+    margin-left: 10%;
+    color: black;
+    position: relative;
+
+}
+
+#what-is-the-vrcycle .section-image-top {
+    float: right;
+    position: relative;
+    right: 10%;
+    margin: 64px 0 32px;
+    min-width: 25%;
+    max-width: 50%;
+    max-height: fit-content;
+    border: white 3px solid;
+    vertical-align:middle;
+    margin: 20px;
+}
+
+#what-is-the-vrcycle .section-image-bottom {
+    float: right;
+    position: relative;
+    margin: 64px 0 32px;
+    right: 10%;
+    min-width: 25%;
+    max-width: 50%;
+    border: white 3px solid;
+    vertical-align: middle;
+    max-height: fit-content;
+    margin: 20px;
+}
+
+#monitor-progress {
+    background-color: #FFF5DA;
+
+
+    background-position: 20% 50%;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+    position: relative;
+
+    display:inline-block;
+
+
+
+}
+
+
+#monitor-progress .section-text {
+    float: right;
+    width: 50%;
+    right: 5%;
+    
+    position: relative;
+}
+
+
+#monitor-progress .section-image-dash {
+    float: left;
+    min-width: 35%;
+    max-height: 600px;
+    height: auto;
+    left: 5%;
+    position: relative;
+    vertical-align: middle;
+}
+
+
+
+
+
+@media (max-width:600px) {
+
+    #first-hero-heading,
+    #second-hero-heading {
+        font-size: 26px;
+    }
+
+    #hero-donate-button {
+        font-size: 22px;
+        padding: 8px 32px;
+    }
+
+    .section-subheading {
+        font-size: 26px;
+        ;
+    }
+
+    .section-text {
+        font-size: 18px;
+    }
+
+
+}
