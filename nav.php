@@ -22,7 +22,7 @@
         <a class="nav-link" href="">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
 
       <!-- search bar -->
@@ -56,7 +56,7 @@
   <a class="nav-mobile-option">
     Contact
   </a>
-  <a class="nav-mobile-option">
+  <a class="nav-mobile-option" href="login.php">
     Login
   </a>
   <a class="nav-mobile-option">
