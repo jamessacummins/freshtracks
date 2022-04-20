@@ -16,7 +16,7 @@
       <div id="first-hero-container">
         <div id="first-hero-heading-container">
           <div id="first-hero-heading">
-            Fresh Tracks helps people with brain injuries get on the tracks outside
+            Fresh Tracks helps people with brain injuries get on the track outside...
           </div>
         </div>
         <img src="Images/hero-image-1.jpg" id="first-hero-image">
@@ -25,7 +25,7 @@
       <div id="second-hero-container">
         <div id="second-hero-heading-container">
           <div id="second-hero-heading">
-            as well as get on the tracks inside
+            and inside
           </div>
           <div id="hero-donate-button-container">
             <a id="hero-donate-button" href="#donate">
