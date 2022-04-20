@@ -39,6 +39,7 @@
             <div class="section-container" id="how-does-it-affect-people">
                 <div class="section-background-overlay"></div>
                 <div class="section">
+                    <img class="arrow-rightofscreen">
                     <div class="section-subheading">HOW DOES IT AFFECT PEOPLE?</div>
                     <div class="section-text">
                         Young people with a brain injury tend to get tired more quickly, have difficulty with short-term memory
@@ -60,6 +61,7 @@
 
             <div class="section-container" id="what-is-rehabilitation-like">
                 <div class="section">
+                <img class="arrow-leftofscreen">
                     <div class="section-subheading">WHAT IS REHABILITATION LIKE?</div>
                     <div class="section-text">
                         Rehabilitation is vital for a person’s recovery and generally includes physiotherapy, occupational therapy
@@ -74,6 +76,7 @@
 
             <div class="section-container" id="how-common-are-abi">
                 <div class="section">
+                <img class="arrow-rightofscreen">
                     <div class="section-subheading">HOW COMMON ARE ABIS?</div>
                     <div class="section-text">
                         Across Australia there are 160,000 people living with a server brain injury which significantly impacts upon

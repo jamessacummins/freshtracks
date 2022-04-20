@@ -43,6 +43,8 @@
   width: 90%;
   max-width:800px;
 
+  position:relative;
+
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -82,6 +84,32 @@
   height:100%;
   width:100%;
   background-color: #00000099;
+}
+
+/* --- Styling for arrows --- */
+
+.arrow-leftofscreen{
+  content:url("../Images/ArrowRight.png");
+  position: absolute;
+  align-self:flex-start;
+  top:-100px;
+  left:3vw;
+  height:100px;
+}
+
+.arrow-rightofscreen{
+  content:url("../Images/ArrowLeft.png");
+  position: absolute;
+  align-self:flex-end;
+  top:-100px;
+  right:3vw;
+  height:100px;
+}
+
+@media(max-width:600px){
+  .arrow-rightofscreen, .arrow-leftofscreen{
+    height:80px;
+  }
 }
 
 /* --- Styling for the top bar of a page --- */
