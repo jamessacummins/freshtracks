@@ -39,7 +39,8 @@ body, html{
 }
 #login-logo{
     margin: 32px 0;
-    width:150px;
+    width:80%;
+    max-width:300px;
 }
 
 #login-header{

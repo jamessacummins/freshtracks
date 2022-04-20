@@ -14,7 +14,7 @@
 }
 
 .logo{
-    height: 20px;
+    height: 35px;
     padding: 0 20px;
 }
 
@@ -22,15 +22,15 @@
     position: relative;
     margin-top: 5px;
     margin-left: 10px;
-    width:150px;
+    width:130px;
 }
 input{
-    width:150px;
+    width:130px;
 }
 
 .donateNav{
     height: 100%;
-    width: 180px;
+    padding: 0 16px;
     color: white;
     border:none;
     font-size: 30px;
@@ -44,6 +44,8 @@ input{
 #navbarNav{
     height:100%;
     flex-grow:1;
+
+
 }
 .navbar-nav {
     flex-grow: 1;
@@ -51,18 +53,18 @@ input{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap:10px;
 
     background-color: #F5F5F5;
     min-height:100%;
-    padding-right:30px;
+    padding:0 15px;
 }
 
 
 
 .nav-item{
     font-size: 18px;
-    min-width: 100px;
-    width: 110px;
+    max-width:150px;
     text-align: center;
     display:flex;
     align-items: center;
@@ -146,7 +148,7 @@ input{
     display:none;
 }
 
-@media (max-width:1200px){
+@media (max-width:1100px){
     .navbar-nav, .donateNav {
         display:none;
     }
@@ -155,7 +157,7 @@ input{
     }
 }
 
-@media (min-width:1200px){
+@media (min-width:1100px){
     #nav-mobile-options-container{
         display:none !important;
     }
