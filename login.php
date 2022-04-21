@@ -20,7 +20,7 @@
                 <img src="./Images/logo.svg" alt="">
             </div>
             <div id="login-header">
-                The Fresh Portal
+                The VRcycle Portal
             </div>
             <form id="login-form">
                 <div id="login-email-title">

@@ -71,6 +71,9 @@ input{
     justify-content: center;
     font-weight: 300;
     text-transform: uppercase ;
+
+    user-select: none;
+    cursor: pointer;
 }
 
 .nav-link {
