@@ -6,23 +6,25 @@
   </a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+      <!--
       <li class="nav-item">
         <a class="nav-link" href="./volunteer.php">Volunteer</a>
       </li>
+-->
       <li class="nav-item">
-        <a class="nav-link" href="">Services</a>
+        <a class="nav-link" onclick="toggleCycling()">Cycling</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Stories</a>
+        <a class="nav-link" href="./stories.php">Stories</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./abi.php">Acquired Brain Injuries</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Contact</a>
+        <a class="nav-link" href="./contact.php">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.php">Login</a>
+        <a class="nav-link" href="./login.php">Login</a>
       </li>
 
       <!-- search bar -->
@@ -41,25 +43,27 @@
 <div class="nav-space"></div>
 
 <div id="nav-mobile-options-container">
+  <a class="nav-mobile-option">
+    Donate
+  </a>
+  <!--
   <a class="nav-mobile-option" href="./volunteer.php">
     Volunteer
+  </a>  
+  -->
+  <a class="nav-mobile-option" onclick="toggleCycling()">
+    Cycling
   </a>
-  <a class="nav-mobile-option">
-    Services
-  </a>
-  <a class="nav-mobile-option">
+  <a class="nav-mobile-option" href="./stories.php">
     Stories
   </a>
   <a class="nav-mobile-option" href="./abi.php">
     Acquired Brain Injuries
   </a>
-  <a class="nav-mobile-option">
+  <a class="nav-mobile-option" href="./contact.php">
     Contact
   </a>
-  <a class="nav-mobile-option" href="login.php">
+  <a class="nav-mobile-option" href="./login.php">
     Login
-  </a>
-  <a class="nav-mobile-option">
-    Donate
   </a>
 </div>
