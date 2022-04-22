@@ -17,103 +17,103 @@
 }
 
 #what-is-the-vrcycle {
-    background-color: #FFC300;
+    background-color: #E9A715;
     background-size: cover;
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#what-is-the-vrcycle .section1 {
     background-position: 20% 50%;
     color: #fff;
-    width: 100%;
-
-    flex-direction: column;
+    width: 90%;
     align-items: center;
     padding: 64px 0;
     position: relative;
-
-    display:inline-block;
-
-
-
+    display: block;
+    z-index: 10;
 }
 
 
 #what-is-the-vrcycle .section-text {
     float: left;
-    max-width: 40%;
-    min-width: 20%;
-    margin-left: 10%;
+    max-width: 800px;
     color: black;
     position: relative;
+    align-items: center;
 
 }
 
 #what-is-the-vrcycle .section-image-top {
     float: right;
     position: relative;
-    right: 10%;
-    margin: 64px 0 32px;
-    min-width: 25%;
-    max-width: 50%;
-    max-height: fit-content;
-    border: white 3px solid;
-    vertical-align:middle;
-    margin: 20px;
+    width: 35%;
+    min-width: 30%;
+    max-width: 45%;
+    display: block;
+    margin-right: 6%;
+    margin-top: 1.5%;
+    align-items: center;
 }
 
-#what-is-the-vrcycle .section-image-bottom {
-    float: right;
-    position: relative;
-    margin: 64px 0 32px;
-    right: 10%;
-    min-width: 25%;
-    max-width: 50%;
-    border: white 3px solid;
-    vertical-align: middle;
-    max-height: fit-content;
-    margin: 20px;
-}
+#monitor-progress{
 
-#monitor-progress {
     background-color: #FFF5DA;
-
-
-    background-position: 20% 50%;
+    background-size: cover;
     width: 100%;
-
+    padding: 64px 0;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#monitor-progress .section2{
+    width: 80%;
     align-items: center;
     padding: 64px 0;
     position: relative;
-
-    display:inline-block;
-
-
-
+    display: flex;
+    z-index: 10;
 }
 
 
 #monitor-progress .section-text {
     float: right;
-    width: 50%;
-    right: 5%;
-    
+    max-width: 800px;
+    color: black;
     position: relative;
+    align-items: center;
+    width:90%;
+    object-fit: cover;
 }
 
 
 #monitor-progress .section-image-dash {
     float: left;
-    min-width: 35%;
-    max-height: 600px;
-    height: auto;
-    left: 5%;
+    width:90%;
+    max-width: 400px;
     position: relative;
-    vertical-align: middle;
+    object-fit: cover;
+    left: 10%;
+    top: 5%;
+    
 }
 
+#what-is-the-vrcycle .section1 .arrow-leftofscreen{
+    left:30vw;
+  }
 
 
 
 
-@media (max-width:600px) {
+
+
+@media (max-width:1000px) {
 
     #first-hero-heading,
     #second-hero-heading {
@@ -132,6 +132,43 @@
 
     .section-text {
         font-size: 18px;
+        float: unset;
+    }
+
+    #what-is-the-vrcycle .section-image-top {
+        margin: 64px 0 32px;
+        width: 80%;
+        max-width: 600px;
+        
+    }
+
+    #what-is-the-vrcycle .section1 {
+        z-index: 10;
+        width: 90%;
+        max-width: 800px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #monitor-progress .section-image-dash {
+        float: left;
+        min-width: 15%;
+        max-width: 60%;
+        width: 60%;
+        max-height: 800px;
+        height: auto;
+        left: 5%;
+        margin-top: 10%;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    #monitor-progress .section-text{
+        width: 50%;
+        margin-top: 0%;
+
     }
 
 

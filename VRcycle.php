@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php include "head.php"?>
+    <?php include "head.php" ?>
     <link rel="stylesheet" href="./css/VRcycle.css">
 </head>
 
@@ -35,28 +35,32 @@
 
 
 
-        <div class="section-container1" id="what-is-the-vrcycle">
-            <div class="section-subheading">What is the vrcycle?</div>
-            <div class="section-text">
-                The VRcycle is built using a recumbent exercise bike that has been modified to include hand brakes,
-                steering, blinkers and the monitoring of pedal rotation. As the Rider pedals and steers the computer
-                APP displays an Avatar of the Rider moving and meeting challenges in a range of different cartoon
-                environments. <br><br>
-                As the Rider begins to improve across a range of different measured criteria such as visual
-                perception and response time then the algorithm identifies the improvement and notifies the APP to
-                set new more appropriate challenges.<br><br>
-                The computer APP is designed to be displayed on either a Tablet, projected onto a wall or in virtual
-                reality mode.
+        <div class="section-container" id="what-is-the-vrcycle">
+            <div class="section1">
+                <img class="arrow-leftofscreen">
+                <div class="section-subheading">What is the vrcycle?</div>
+                <br>
+                <div class="section-text">
+                    The VRcycle is built using a recumbent exercise bike that has been modified to include hand brakes,
+                    steering, blinkers and the monitoring of pedal rotation. As the Rider pedals and steers the computer
+                    APP displays an Avatar of the Rider moving and meeting challenges in a range of different cartoon
+                    environments. <br><br>
+                    As the Rider begins to improve across a range of different measured criteria such as visual
+                    perception and response time then the algorithm identifies the improvement and notifies the APP to
+                    set new more appropriate challenges.<br><br>
+                    The computer APP is designed to be displayed on either a Tablet, projected onto a wall or in virtual
+                    reality mode.
 
+                </div>
+
+                <img class="section-image-top" src="Images/VrCycleImage1.png">
             </div>
-
-            <img class="section-image-top" src="Images/VrCycleImage1.png">
-            <img class="section-image-bottom" src="Images/VrCycleImage2.png">
         </div>
 
 
         <div class="section-container" id="access-vrcycle">
             <div class="section">
+                <img class="arrow-rightofscreen">
                 <div class="section-subheading">How can i or my client access the vrcycle?</div>
                 <div class="section-text">
                     A number of VRcycles are located in specialist Rehabilitation facilities where you can test the
@@ -67,14 +71,17 @@
 
                 </div>
 
-               
+
             </div>
         </div>
 
 
         <div class="section-container" id="monitor-progress">
-                <div class="section-subheading">How can i monitor progress?</div>
+            <div class="section2">
+            <img class="arrow-leftofscreen">
                 <div class="section-text">
+                    <h2> How can i monitor progress? </h2>
+                    <br>
                     As a Carer or family member who is monitoring the progress of a Client using the VRcycle then simply
                     log onto the Fresh Tracks site and you can monitor the progress of one or more of your Clients.<br>
                     <br>
@@ -84,15 +91,15 @@
                     These Ability scores are also displayed in a ‘Radar chart” allowing a comparison between each of the
                     five games the Rider can play.
                 </div>
-
                 <img class="section-image-dash" src="Images/Dashboard.png">
             </div>
         </div>
+    </div>
 
-        <?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
     </div>
 
-</div>
+    </div>
 
 </body>
