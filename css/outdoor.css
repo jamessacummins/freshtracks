@@ -1,0 +1,27 @@
+#outdoor-topbar-parent{
+    background-image: url("../img/outdoor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#how {
+    background: url("../img/outdoor-how.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+#how .section-background-overlay{
+    display:initial;
+}
+
+#how .section *{
+    color: #fff;
+}
+
+li{
+    margin-left:64px;
+}
+
+#join{
+    background-color: #FFF5DA;
+}
