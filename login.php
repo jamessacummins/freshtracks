@@ -38,12 +38,13 @@
                     Login
                 </button>
             </form>
-            <div id="login-signup-prompt">
+            <!-- <div id="login-signup-prompt">
                 Not registered with Fresh Tracks?
             </div>
             <a id="login-signup" href="/">
                 Sign Up
-</a>
+            </a> -->
+            
         </div>
     </div>
 

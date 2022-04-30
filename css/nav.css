@@ -93,8 +93,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    user-select: none;
-    cursor: pointer;
 }
 .nav-link:hover, .nav-sub-item:hover {
     color: #ff8000;
