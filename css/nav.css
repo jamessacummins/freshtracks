@@ -94,7 +94,7 @@
     align-items: center;
     justify-content: center;
 }
-.nav-link:hover, .nav-sub-item:hover {
+.nav-link:hover, .nav-sub-item:hover, .nav-mobile-option:hover, .nav-mobile-sub-option:hover {
     color: #ff8000;
 }
 
@@ -149,6 +149,22 @@
     cursor: pointer;
     user-select: none;
 }
+
+.nav-mobile-sub-option{
+    padding: 16px 0;
+    display:none;
+    background-color: #e5e5e5;
+    color:#121212;
+    font-size:22px;
+    font-weight:300;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:center;
+
+    cursor: pointer;
+    user-select: none;
+}
+
 .nav-mobile-option::after{
     content: " ";
     display: block;

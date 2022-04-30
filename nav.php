@@ -15,13 +15,13 @@
         <a class="nav-link" onclick="toggleSubItems('cycling')">Cycling</a>
         <div class="nav-sub-item-container">
           <div class="nav-sub-item">
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="./indoor.php">
               Indoor
             </a>
           </div>
           <div class="nav-sub-item">
-            <a class="nav-link" href="/">
-              outdoor
+            <a class="nav-link" href="./outdoor.php">
+              Outdoor
             </a>
           </div>
         </div>
@@ -56,8 +56,14 @@
     Volunteer
   </a>  
   -->
-  <a class="nav-mobile-option" onclick="toggleCycling()">
+  <a class="nav-mobile-option" onclick="toggleMobileSubItems('mobile-cycling')" id="mobile-cycling">
     Cycling
+  </a>
+  <a class="nav-mobile-sub-option" href="./indoor.php">
+    Indoor
+  </a>
+  <a class="nav-mobile-sub-option" href="./outdoor.php">
+    Outdoor
   </a>
   <a class="nav-mobile-option" href="./stories.php">
     Stories

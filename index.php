@@ -72,7 +72,7 @@
       <div class="section">
         <img class="arrow-rightofscreen">
         <div class="section-subheading">why we started</div>
-        <img class="section-image shadow" src="img/sam.JPG">
+        <img class="section-image shadow" src="img/sam.jpg">
         </img>
         <div class="section-text">
           Fresh Tracks Foundation was started by the friends and family of Sam Carson, aged 26 who suffered an
