@@ -19,7 +19,7 @@
             Fresh Tracks helps people with brain injuries get on the track outside...
           </div>
         </div>
-        <img src="Images/hero-image-1.jpg" id="first-hero-image">
+        <img src="img/hero-image-1.jpg" id="first-hero-image">
         <div id="first-hero-overlay"></div>
       </div>
       <div id="second-hero-container">
@@ -42,7 +42,7 @@
     <div class="section-container" id="how-we-help">
       <div class="section">
         <div class="section-subheading">HOW WE HELP</div>
-        <img class="section-icon" src="Images/brain.png">
+        <img class="section-icon" src="img/brain.png">
         <div class="section-text">
           Fresh Tracks provides supervised outdoor cycling using recumbent bikes and a home-based system called the
           VRcycle that combines a modified recumbent exercise cycle, computer tablet and specifically designed APP.
@@ -72,7 +72,7 @@
       <div class="section">
         <img class="arrow-rightofscreen">
         <div class="section-subheading">why we started</div>
-        <img class="section-image shadow" src="Images/sam.JPG">
+        <img class="section-image shadow" src="img/sam.JPG">
         </img>
         <div class="section-text">
           Fresh Tracks Foundation was started by the friends and family of Sam Carson, aged 26 who suffered an

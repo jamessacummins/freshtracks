@@ -88,7 +88,7 @@
 /* --- Styling for arrows --- */
 
 .arrow-leftofscreen{
-  content:url("../Images/ArrowRight.png");
+  content:url("../img/ArrowRight.png");
   position: absolute;
   align-self:flex-start;
   top:-100px;
@@ -97,7 +97,7 @@
 }
 
 .arrow-rightofscreen{
-  content:url("../Images/ArrowLeft.png");
+  content:url("../img/ArrowLeft.png");
   position: absolute;
   align-self:flex-end;
   top:-100px;

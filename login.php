@@ -17,7 +17,7 @@
                 Return to main site
             </a>
             <div id="login-logo">
-                <img src="./Images/logo.svg" alt="">
+                <img src="./img/logo.svg" alt="">
             </div>
             <div id="login-header">
                 The VRcycle Portal

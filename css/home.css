@@ -94,7 +94,7 @@
 
 #second-hero-image{
 
-    background-image:url("../Images/hero-image-2.JPG");
+    background-image:url("../img/hero-image-2.JPG");
     width:50%;
     height:350px;
     background-size:cover;
@@ -177,7 +177,7 @@
 }
 
 #our-vision{
-    background: url("../Images/our-vision.jpg");
+    background: url("../img/our-vision.jpg");
     background-size:cover;
     background-position: 20% 50%;
     color:#fff;

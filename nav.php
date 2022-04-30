@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="logo-link" href="./">
-    <img class="logo" src="Images/logo.svg">
+    <img class="logo" src="img/logo.svg">
   </a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
@@ -27,13 +27,6 @@
         <a class="nav-link" href="./login.php">Login</a>
       </li>
 
-      <!-- search bar -->
-      <nav class="searchbar navbar-light bg-light">
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </nav>
-      <!--  -->
     </ul>
   </div>
   <button type="button" class="donateNav btn-outline-primary">Donate</button>
