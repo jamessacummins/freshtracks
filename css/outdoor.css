@@ -8,6 +8,7 @@
     background: url("../img/outdoor-how.jpg");
     background-size:cover;
     background-position: center;
+    padding-bottom:500px;
 }
 
 #how .section-background-overlay{
