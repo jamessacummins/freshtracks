@@ -1,18 +1,30 @@
 <link rel="stylesheet" href="css/nav.css">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav id="navbar">
   <a class="logo-link" href="./">
-    <img class="logo" src="img/logo.svg">
+    <img id="nav-logo" src="img/logo.svg">
   </a>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+  <div id="nav-main-container">
+    <ul id="nav-items-container">
       <!--
       <li class="nav-item">
         <a class="nav-link" href="./volunteer.php">Volunteer</a>
       </li>
 -->
-      <li class="nav-item">
-        <a class="nav-link" onclick="toggleCycling()">Cycling</a>
+      <li class="nav-item" id="cycling">
+        <a class="nav-link" onclick="toggleSubItems('cycling')">Cycling</a>
+        <div class="nav-sub-item-container">
+          <div class="nav-sub-item">
+            <a class="nav-link" href="/">
+              Indoor
+            </a>
+          </div>
+          <div class="nav-sub-item">
+            <a class="nav-link" href="/">
+              outdoor
+            </a>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./stories.php">Stories</a>
@@ -29,7 +41,7 @@
 
     </ul>
   </div>
-  <button type="button" class="donateNav btn-outline-primary">Donate</button>
+  <button type="button" id="nav-donate">Donate</button>
   <a id="nav-mobile-hamburger" onclick="toggleMobileNavOptions()">
   </a>
 </nav>
