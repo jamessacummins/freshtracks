@@ -3,7 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
-    <link rel="stylesheet" href="./css/indoor.css">
+    <link rel="stylesheet" href="./css/outdoor.css">
 </head>
 
 
