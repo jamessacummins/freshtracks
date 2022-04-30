@@ -14,12 +14,12 @@
     <?php include "nav.php"; ?>
 
 
-    <div class="parent-topbar-container" id="volunteer-topbar-parent">
-            <div class="topbar-overlay"></div>
-            <div class="topbar-container">
-                Contact
-            </div>
+    <div class="parent-topbar-container" id="contact-topbar-parent">
+        <div class="topbar-overlay"></div>
+        <div class="topbar-container">
+            Get in touch with us
         </div>
+    </div>
 
 
 </div>
