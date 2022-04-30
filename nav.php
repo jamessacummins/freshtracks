@@ -2,7 +2,7 @@
 
 <nav id="navbar">
   <a class="logo-link" href="./">
-    <img id="nav-logo" src="img/logo.svg">
+    <img id="nav-logo">
   </a>
   <div id="nav-main-container">
     <ul id="nav-items-container">

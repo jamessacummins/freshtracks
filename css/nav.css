@@ -14,7 +14,9 @@
 }
 
 #nav-logo{
+    content:url("../img/logo_square.svg");
     height: 35px;
+    width: auto;
     padding: 0 20px;
 }
 
@@ -191,5 +193,8 @@
 @media (min-width:1100px){
     #nav-mobile-options-container{
         display:none !important;
+    }
+    #nav-logo{
+        content:url("../img/logo.svg");
     }
 }
