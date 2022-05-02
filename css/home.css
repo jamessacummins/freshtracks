@@ -35,10 +35,13 @@
     width:50%;
     height:350px;
     object-fit:cover;
+    object-position: 0% 100%;
 
     position:absolute;
     top:0;
     right:0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #first-hero-overlay {
@@ -94,15 +97,17 @@
 
 #second-hero-image{
 
-    background-image:url("../Images/hero-image-2.JPG");
+    background-image:url("../img/hero-image-2.JPG");
     width:50%;
     height:350px;
     background-size:cover;
-    background-position: top center;
+    background-position: 50% 20%;
 
     position:absolute;
     top: 0px;
     right:0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #second-hero-overlay {
@@ -177,7 +182,7 @@
 }
 
 #our-vision{
-    background: url("../Images/our-vision.jpg");
+    background: url("../img/our-vision.jpg");
     background-size:cover;
     background-position: 20% 50%;
     color:#fff;

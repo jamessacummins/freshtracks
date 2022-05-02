@@ -1,13 +1,13 @@
 /* ---- Styling for topbar ---- */
 
 #abi-topbar-parent{
-    background-image: url("../Images/abi-topbar.jpg");
+    background-image: url("../img/abi-topbar.jpg");
     background-size: cover;
     background-position: 50% 10%;
 }
 
 #how-does-it-affect-people{
-    background: url("../Images/our-vision.jpg");
+    background: url("../img/our-vision.jpg");
     background-size:cover;
     background-position: 20% 50%;
     color:#fff;

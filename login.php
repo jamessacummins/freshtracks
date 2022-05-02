@@ -17,7 +17,7 @@
                 Return to main site
             </a>
             <div id="login-logo">
-                <img src="./Images/logo.svg" alt="">
+                <img src="./img/logo.svg" alt="">
             </div>
             <div id="login-header">
                 The VRcycle Portal
@@ -38,12 +38,13 @@
                     Login
                 </button>
             </form>
-            <div id="login-signup-prompt">
+            <!-- <div id="login-signup-prompt">
                 Not registered with Fresh Tracks?
             </div>
             <a id="login-signup" href="/">
                 Sign Up
-</a>
+            </a> -->
+            
         </div>
     </div>
 

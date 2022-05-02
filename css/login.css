@@ -15,7 +15,7 @@ body, html{
 }
 
 #login-background{
-    background-image:url("../Images/login.jpg");
+    background-image:url("../img/login.jpg");
     background-size:cover;
     background-position:10% 0%;
     display:none;
@@ -53,6 +53,8 @@ body, html{
 #login-form{
     max-width: 350px;
     width:100%;
+
+    margin-bottom:auto;
 
     display:flex;
     flex-direction: column;

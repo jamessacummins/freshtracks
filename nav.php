@@ -1,18 +1,30 @@
 <link rel="stylesheet" href="css/nav.css">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav id="navbar">
   <a class="logo-link" href="./">
-    <img class="logo" src="Images/logo.svg">
+    <img id="nav-logo">
   </a>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+  <div id="nav-main-container">
+    <ul id="nav-items-container">
       <!--
       <li class="nav-item">
         <a class="nav-link" href="./volunteer.php">Volunteer</a>
       </li>
 -->
-      <li class="nav-item">
-        <a class="nav-link" onclick="toggleCycling()">Cycling</a>
+      <li class="nav-item" id="cycling">
+        <a class="nav-link" onclick="toggleSubItems('cycling')">Cycling</a>
+        <div class="nav-sub-item-container">
+          <div class="nav-sub-item">
+            <a class="nav-link" href="./indoor.php">
+              Indoor
+            </a>
+          </div>
+          <div class="nav-sub-item">
+            <a class="nav-link" href="./outdoor.php">
+              Outdoor
+            </a>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./stories.php">Stories</a>
@@ -27,16 +39,9 @@
         <a class="nav-link" href="./login.php">Login</a>
       </li>
 
-      <!-- search bar -->
-      <nav class="searchbar navbar-light bg-light">
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </nav>
-      <!--  -->
     </ul>
   </div>
-  <button type="button" class="donateNav btn-outline-primary">Donate</button>
+  <button type="button" id="nav-donate">Donate</button>
   <a id="nav-mobile-hamburger" onclick="toggleMobileNavOptions()">
   </a>
 </nav>
@@ -51,8 +56,14 @@
     Volunteer
   </a>  
   -->
-  <a class="nav-mobile-option" onclick="toggleCycling()">
+  <a class="nav-mobile-option" onclick="toggleMobileSubItems('mobile-cycling')" id="mobile-cycling">
     Cycling
+  </a>
+  <a class="nav-mobile-sub-option" href="./indoor.php">
+    Indoor
+  </a>
+  <a class="nav-mobile-sub-option" href="./outdoor.php">
+    Outdoor
   </a>
   <a class="nav-mobile-option" href="./stories.php">
     Stories

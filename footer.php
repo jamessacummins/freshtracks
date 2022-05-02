@@ -5,7 +5,7 @@
           <div id="donate-heading">
             We need your help
           </div>
-          <img id="donate-image" src="Images/donate.JPG">
+          <img id="donate-image" src="img/donate.JPG">
           <div id="donate-text">
             We work hard to ensure resources are not duplicated and the effectiveness of every dollar spent is maximised
           </div>

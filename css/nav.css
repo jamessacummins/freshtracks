@@ -1,4 +1,4 @@
-.navbar{
+#navbar{
     width:100%;
     height:110px;
     
@@ -13,22 +13,14 @@
     z-index: 1000;
 }
 
-.logo{
+#nav-logo{
+    content:url("../img/logo_square.svg");
     height: 35px;
+    width: auto;
     padding: 0 20px;
 }
 
-.searchbar{
-    position: relative;
-    margin-top: 5px;
-    margin-left: 10px;
-    width:130px;
-}
-input{
-    width:130px;
-}
-
-.donateNav{
+#nav-donate{
     height: 100%;
     padding: 0 16px;
     color: white;
@@ -41,13 +33,12 @@ input{
     cursor:pointer;
     user-select: none;
 }
-#navbarNav{
-    height:100%;
+#nav-main-container{
     flex-grow:1;
-
-
+    height:100%;
 }
-.navbar-nav {
+#nav-items-container {
+    height:100%;
     flex-grow: 1;
     display:flex;
     flex-direction: row;
@@ -63,7 +54,9 @@ input{
 
 
 .nav-item{
+    height:100%;
     font-size: 18px;
+    min-width:110px;
     max-width:150px;
     text-align: center;
     display:flex;
@@ -72,8 +65,7 @@ input{
     font-weight: 300;
     text-transform: uppercase ;
 
-    user-select: none;
-    cursor: pointer;
+    position:relative;
 }
 
 .nav-link {
@@ -81,8 +73,30 @@ input{
     text-decoration: none;
     text-decoration: uppercase;
     font-size: 18px;
+
+    user-select: none;
+    cursor: pointer;
 }
-.nav-link:hover {
+
+.nav-sub-item-container{
+    display:none;
+    top:100%;
+    left:-30%;
+    width:160%;
+    position: absolute;
+    background-color: #e5e5e5;
+
+    z-index: 999;
+}
+
+.nav-sub-item{
+    height:110px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link:hover, .nav-sub-item:hover, .nav-mobile-option:hover, .nav-mobile-sub-option:hover {
     color: #ff8000;
 }
 
@@ -99,7 +113,7 @@ input{
     display:none;
 
     background-color: red;
-    background:url("../Images/hamburger.svg");
+    background:url("../img/hamburger.svg");
     background-repeat:no-repeat;
     background-size: 50px;
     background-position:  center;
@@ -137,6 +151,22 @@ input{
     cursor: pointer;
     user-select: none;
 }
+
+.nav-mobile-sub-option{
+    padding: 16px 0;
+    display:none;
+    background-color: #e5e5e5;
+    color:#121212;
+    font-size:22px;
+    font-weight:300;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:center;
+
+    cursor: pointer;
+    user-select: none;
+}
+
 .nav-mobile-option::after{
     content: " ";
     display: block;
@@ -152,7 +182,7 @@ input{
 }
 
 @media (max-width:1100px){
-    .navbar-nav, .donateNav {
+    #nav-items-container, #nav-donate {
         display:none;
     }
     #nav-mobile-hamburger{
@@ -163,5 +193,8 @@ input{
 @media (min-width:1100px){
     #nav-mobile-options-container{
         display:none !important;
+    }
+    #nav-logo{
+        content:url("../img/logo.svg");
     }
 }
