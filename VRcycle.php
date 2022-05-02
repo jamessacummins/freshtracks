@@ -16,7 +16,7 @@
         <div class="parent-topbar-container" id="abi-topbar-parent">
             <div class="topbar-overlay"></div>
             <div class="topbar-container">
-                Home Cycling <br> & Vrcycle
+                Indoor Cycling
             </div>
         </div>
 

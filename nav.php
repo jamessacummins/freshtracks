@@ -15,7 +15,7 @@
         <a class="nav-link" onclick="toggleSubItems('cycling')">Cycling</a>
         <div class="nav-sub-item-container">
           <div class="nav-sub-item">
-            <a class="nav-link" href="./indoor.php">
+            <a class="nav-link" href="./VRcycle.php">
               Indoor
             </a>
           </div>
