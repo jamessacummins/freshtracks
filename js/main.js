@@ -8,12 +8,19 @@ function toggleMobileNavOptions(){
     }
 }
 function toggleSubItems(parentID){
-    let subItem = document.querySelector("#" + parentID + " .nav-sub-item-container");
-    if(subItem.style.display == "" || subItem.style.display == "none"){
-        subItem.style.display = "initial";
-    } else {
-        subItem.style.display = "none";
-    }
+    let subItems = document.querySelectorAll(".nav-sub-item-container");
+    subItems.forEach(subItem => {
+        if(subItem.parentElement.id == parentID){
+            if(subItem.style.display == "" || subItem.style.display == "none"){
+                subItem.style.display = "initial";
+            }
+            else {
+                subItem.style.display = "none"; 
+            }
+        } else {
+            subItem.style.display = "none";
+        }
+    })
 }
 
 function toggleMobileSubItems(parentID){
