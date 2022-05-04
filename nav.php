@@ -31,7 +31,7 @@
         <div class="nav-sub-item-container">
           <div class="nav-sub-item">
             <a class="nav-link" href="./stories.php">
-              Stories
+              Our Stories
             </a>
           </div>
           <div class="nav-sub-item">
@@ -65,19 +65,22 @@
     Volunteer
   </a>  
   -->
-  <a class="nav-mobile-option" onclick="toggleMobileSubItems('mobile-cycling')" id="mobile-cycling">
-    Cycling
+  <a class="nav-mobile-option" onclick="toggleMobileSubItems('what-we-do-m')" id="what-we-do-m">
+    What we do
   </a>
-  <a class="nav-mobile-sub-option" href="./indoor.php">
-    Indoor
+  <a class="nav-mobile-sub-option" href="./VRcycle.php">
+    Indoor cycling
   </a>
   <a class="nav-mobile-sub-option" href="./outdoor.php">
-    Outdoor
+    Outdoor cycling
   </a>
-  <a class="nav-mobile-option" href="./stories.php">
-    Stories
+  <a class="nav-mobile-option" onclick="toggleMobileSubItems('changing-lives-m')" id="changing-lives-m">
+    Changing lives
   </a>
-  <a class="nav-mobile-option" href="./abi.php">
+  <a class="nav-mobile-sub-option" href="./stories.php">
+    Our Stories
+  </a>
+  <a class="nav-mobile-sub-option" href="./abi.php">
     Acquired Brain Injuries
   </a>
   <a class="nav-mobile-option" href="./contact.php">
