@@ -96,6 +96,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.nav-link{
+    min-width:110px;
+    max-width:150px;
+}
 .nav-link:hover, .nav-sub-item:hover, .nav-mobile-option:hover, .nav-mobile-sub-option:hover {
     color: #ff8000;
 }

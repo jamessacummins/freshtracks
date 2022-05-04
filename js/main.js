@@ -9,7 +9,6 @@ function toggleMobileNavOptions(){
 }
 function toggleSubItems(parentID){
     let subItem = document.querySelector("#" + parentID + " .nav-sub-item-container");
-    console.log(subItem);
     if(subItem.style.display == "" || subItem.style.display == "none"){
         subItem.style.display = "initial";
     } else {

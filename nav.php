@@ -11,26 +11,35 @@
         <a class="nav-link" href="./volunteer.php">Volunteer</a>
       </li>
 -->
-      <li class="nav-item" id="cycling">
-        <a class="nav-link" onclick="toggleSubItems('cycling')">Cycling</a>
+      <li class="nav-item" id="what-we-do">
+        <a class="nav-link" onclick="toggleSubItems('what-we-do')">What we do</a>
         <div class="nav-sub-item-container">
           <div class="nav-sub-item">
             <a class="nav-link" href="./VRcycle.php">
-              Indoor
+              Indoor Cycling
             </a>
           </div>
           <div class="nav-sub-item">
             <a class="nav-link" href="./outdoor.php">
-              Outdoor
+              Outdoor Cycling
             </a>
           </div>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./stories.php">Stories</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./abi.php">Acquired Brain Injuries</a>
+      <li class="nav-item" id="changing-lives">
+        <a class="nav-link" onclick="toggleSubItems('changing-lives')">Changing lives</a>
+        <div class="nav-sub-item-container">
+          <div class="nav-sub-item">
+            <a class="nav-link" href="./stories.php">
+              Stories
+            </a>
+          </div>
+          <div class="nav-sub-item">
+            <a class="nav-link" href="./abi.php">
+            Acquired Brain Injuries
+            </a>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./contact.php">Contact</a>
