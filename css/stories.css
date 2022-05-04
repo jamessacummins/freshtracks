@@ -12,7 +12,6 @@
 }
 .story-container{
     width: calc(33.33% - 16px);
-    min-height:600px;
     border:1px solid #B7B7B7;
 
     display:flex;
@@ -55,7 +54,7 @@
 }
 
 .story-intro{
-    margin-top:16px;
+    margin:16px 16px 64px;
     font-weight:300;
     color: #444;
 }
