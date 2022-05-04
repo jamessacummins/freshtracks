@@ -186,7 +186,7 @@
     display:none;
 }
 
-@media (max-width:1100px){
+@media (max-width:950px){
     #nav-items-container, #nav-donate {
         display:none;
     }
@@ -195,7 +195,7 @@
     }
 }
 
-@media (min-width:1100px){
+@media (min-width:950px){
     #nav-mobile-options-container{
         display:none !important;
     }
