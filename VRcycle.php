@@ -38,7 +38,7 @@
         <div class="section-container" id="what-is-the-vrcycle">
             <div class="section1">
                 <img class="arrow-leftofscreen">
-                <div class="section-subheading">What is the vrcycle?</div>
+                <div class="section-subheading">What is the VRcycle?</div>
                 <br>
                 <div class="section-text">
                     The VRcycle is built using a recumbent exercise bike that has been modified to include hand brakes,
@@ -61,7 +61,7 @@
         <div class="section-container" id="access-vrcycle">
             <div class="section">
                 <img class="arrow-rightofscreen">
-                <div class="section-subheading">How can i or my client access the vrcycle?</div>
+                <div class="section-subheading">How can I or my client access the vrcycle?</div>
                 <div class="section-text">
                     A number of VRcycles are located in specialist Rehabilitation facilities where you can test the
                     VRcycle. We can then arrange to have a machine installed into your home. If you are on an NDIS plan
@@ -80,7 +80,7 @@
             <div class="section2">
             <img class="arrow-leftofscreen">
                 <div class="section-text">
-                    <h2> How can i monitor progress? </h2>
+                    <h2> How can I monitor progress? </h2>
                     <br>
                     As a Carer or family member who is monitoring the progress of a Client using the VRcycle then simply
                     log onto the Fresh Tracks site and you can monitor the progress of one or more of your Clients.<br>
