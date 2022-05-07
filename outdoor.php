@@ -68,6 +68,30 @@
                 <div class="section-text">
                 To register for an assessment: call Kylie on 0478488568 , 02 9808 9369 or email her on Kylie.chambers@royalrehab.com.au
                 </div>
+                <div class="section-text section-text-two-column">
+                        <div class="column">
+                            <div class="section-subsubheading">
+                                Locations
+                            </div>
+                            <p>
+                            St Ives hub is located at H.A.R.T (Honda Australia Rider Training) 451 Mona Vale Road St. Ives NSW 2075 (Opposite St Ives Showground), Newington Armory in Jamieson St Olympic Park and at Royal Rehab Hospital in Ryde.
+                            <br><br>
+                            Due to COVID-19 however access to the sites have been significantly impacted particularly at H.A.R.T
+                            </p>
+                        </div>
+                        <div class="column">
+                        <div class="section-subsubheading">
+                            Session Times
+                        </div>
+                        <p>
+                        HART: Friday 1-4pm (temporarily suspended)
+                        <br><br>
+                        Newington: Monday 1-4pm 
+                        <br><br>
+                        Newington: Thursday 1-4pm.
+                        </p>
+                        </div>
+                </div>
             </div>
         </div>
 
