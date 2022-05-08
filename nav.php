@@ -11,8 +11,13 @@
         <a class="nav-link" href="./volunteer.php">Volunteer</a>
       </li>
 -->
-      <li class="nav-item" id="what-we-do">
-        <a class="nav-link" onclick="toggleSubItems('what-we-do')">What we do</a>
+      <li 
+        class="nav-item" 
+        onmouseover="toggleSubItemsOn('what-we-do')" 
+        onmouseleave="toggleSubItemsOff('what-we-do')" 
+        id="what-we-do"
+      >
+        <a class="nav-link" >What we do</a>
         <div class="nav-sub-item-container">
           <div class="nav-sub-item">
             <a class="nav-link" href="./VRcycle.php">
@@ -26,8 +31,13 @@
           </div>
         </div>
       </li>
-      <li class="nav-item" id="changing-lives">
-        <a class="nav-link" onclick="toggleSubItems('changing-lives')">Changing lives</a>
+      <li 
+        class="nav-item" 
+        onmouseover="toggleSubItemsOn('changing-lives')" 
+        onmouseleave="toggleSubItemsOff('changing-lives')"   
+        id="changing-lives"
+      >
+        <a class="nav-link">Changing lives</a>
         <div class="nav-sub-item-container">
           <div class="nav-sub-item">
             <a class="nav-link" href="./stories.php">
