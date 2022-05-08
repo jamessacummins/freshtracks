@@ -7,21 +7,6 @@ function toggleMobileNavOptions(){
         mobileNav.style.display = "none";
     }
 }
-function toggleSubItems(parentID){
-    let subItems = document.querySelectorAll(".nav-sub-item-container");
-    subItems.forEach(subItem => {
-        if(subItem.parentElement.id == parentID){
-            if(subItem.style.display == "" || subItem.style.display == "none"){
-                subItem.style.display = "initial";
-            }
-            else {
-                subItem.style.display = "none"; 
-            }
-        } else {
-            subItem.style.display = "none";
-        }
-    })
-}
 
 function toggleMobileSubItems(parentID){
     let currentItem = document.querySelector("#" + parentID);
@@ -38,4 +23,23 @@ function toggleMobileSubItems(parentID){
             break;
         }
     }
+}
+
+function toggleSubItemsOn(parentID){
+    let subItems = Array.from(document.querySelectorAll(".nav-sub-item-container"))
+    for(subItem of subItems){
+        if(subItem.parentElement.id == parentID){
+            subItem.style.display = "initial";
+        } else {
+            subItem.style.display = "none";
+        }
+    };
+}
+function toggleSubItemsOff(parentID){
+    let subItems = Array.from(document.querySelectorAll(".nav-sub-item-container"))
+    for(subItem of subItems){
+        if(subItem.parentElement.id == parentID){
+            subItem.style.display = "none";
+        }
+    };
 }
