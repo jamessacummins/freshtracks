@@ -41,7 +41,10 @@
 
 #what-is-the-vrcycle .section-text {
     float: left;
+    width: auto;
     max-width: 800px;
+    width: auto;
+    min-width: 500px;
     color: black;
     position: relative;
     align-items: center;
@@ -113,7 +116,7 @@
 
 
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
 
     #first-hero-heading,
     #second-hero-heading {
@@ -135,22 +138,7 @@
         float: unset;
     }
 
-    #what-is-the-vrcycle .section-image-top {
-        margin: 64px 0 32px;
-        width: 80%;
-        max-width: 600px;
-        
-    }
 
-    #what-is-the-vrcycle .section1 {
-        z-index: 10;
-        width: 90%;
-        max-width: 800px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     #monitor-progress .section-image-dash {
         float: left;
@@ -172,4 +160,24 @@
     }
 
 
+}
+
+
+@media (max-width:1520px) {
+#what-is-the-vrcycle .section-image-top {
+    margin: 64px 32px;
+    width: 80%;
+    max-width: 600px;
+    
+}
+
+#what-is-the-vrcycle .section1 {
+    z-index: 10;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }

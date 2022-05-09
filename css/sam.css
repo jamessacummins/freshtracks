@@ -1,0 +1,12 @@
+#abi-topbar-parent{
+    background-image: url("../img/stories/sam.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+    transform: scaleX(-1);
+}
+
+
+#abi-topbar-parent .topbar-container{
+    transform: scaleX(-1);
+}
+
