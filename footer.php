@@ -15,7 +15,8 @@
           
         </div>
         <div id="footer-container">
-
+          <div id="facebook">{facebook link}</div>
+          <div id="linkedin">{linkedin link}</div>
         </div>
       </div>
     </footer>
