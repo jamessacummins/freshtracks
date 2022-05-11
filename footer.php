@@ -15,8 +15,8 @@
           
         </div>
         <div id="footer-container">
-          <div id="facebook">{facebook link}</div>
-          <div id="linkedin">{linkedin link}</div>
+          <a id="footer-facebook" href="https://www.facebook.com/freshtracksfoundation"></a>
+          <img id="footer-logo"></img>
         </div>
       </div>
     </footer>
