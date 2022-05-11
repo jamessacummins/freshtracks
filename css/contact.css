@@ -14,7 +14,7 @@
   width:100%;
 }
 
-@media (min-width:500px){
+@media (min-width:600px){
   #contact-parent{
     flex-direction: row;
   }
@@ -38,4 +38,57 @@
 #contact-right{
   background-color: var(--yellow);
   display:flex;
+}
+
+.contact-header{
+  font-weight: 600;
+  font-size:20px;
+  margin: 16px 0px;
+}
+.contact-sub-header{
+  font-weight: 500;
+  font-size:18px;
+  margin: 16px 0 0;
+}
+
+.contact-label{
+  margin-top:16px;
+  font-weight:500;
+  color:#aeaeae;
+}
+
+.contact-input {
+  margin-top:8px;
+  padding:8px;
+
+  width:100%;
+  border:none;
+  border-bottom: 1px solid #aeaeae;
+}
+.contact-input:focus {
+  outline:none;
+  border:none;
+  border-bottom: 1px solid var(--orange);
+}
+
+#contact-comment{
+  height:200px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#contact-submit-button{
+  margin:32px 0;
+  background-color: var(--orange);
+  border-radius:8px;
+  padding: 8px 32px;
+
+  color:white;
+  font-weight:600;
+
+  display:flex;
+  justify-content: center;
+
+  user-select: none;
+  cursor: pointer;
 }

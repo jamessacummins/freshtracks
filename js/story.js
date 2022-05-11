@@ -122,16 +122,11 @@ let stories = [
     },
 ];
 
-for(story of stories){
-    var storiesContainer = document.querySelector("#stories-container");
-    var storyContainer = document.createElement("div");
-    storyContainer.classList.add("story-container");
-    storyContainer.innerHTML =
-    `<img class="story-image" src="./img/stories/${story.imageURL}">
-    <div class="story-tag">${story.tag}</div>
-    <div class="story-title">${story.title}</div>
-    <div class="story-intro">${story.intro}</div>
-    <a class="story-link" href="./story.php?id=${story.id}">Learn more</a>`;
-    storiesContainer.appendChild(storyContainer);
-}
+var queryString = window.location.search;
+var searchParams = new URLSearchParams(queryString);
+var id = searchParams.get("id");
 
+document.querySelector("#story-topbar-parent").style.backgroundImage = `url('./img/stories/${stories[id].imageURL}')`;
+document.querySelector("#story-tag").textContent = stories[id].tag;
+document.querySelector("#story-title").textContent = stories[id].title; 
+document.querySelector("#story-content").innerHTML = stories[id].story;
