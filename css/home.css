@@ -227,4 +227,13 @@
     #first-hero-overlay {
         background-image: linear-gradient(90deg, #FFF5DAff 30%, #FFF5DAaa 75%, #FFF5DA00 100%);
     }
+
+    #first-hero-heading-container, #second-hero-heading-container {
+        width:70%;
+        padding-left:5%;
+        align-items: flex-start;
+    }
+    #first-hero-container, #second-hero-container{
+        align-items: flex-start;
+    }
 }
