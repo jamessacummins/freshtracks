@@ -53,7 +53,7 @@
 
                 </div>
 
-                <img class="section-image-top" src="Images/VrCycleImage1.png">
+                <img class="section-image-top" src="img/VrCycleImage1.png">
             </div>
         </div>
 
