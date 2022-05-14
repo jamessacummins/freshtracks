@@ -92,9 +92,7 @@
           brave
           individuals. Throughout this journey we have found our services which both stimulate the brain directly
           and
-          indirectly through exercise of the body have produced the greatest benefits. Our programs now focus on
-          primarily
-          on supervised outdoor and home-based recumbent cycling.
+          indirectly through exercise of the body have produced the greatest benefits. Our programs now focus on supervised outdoor and home-based recumbent cycling.
 
         </div>
 

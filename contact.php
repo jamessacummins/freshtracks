@@ -36,14 +36,14 @@
           </div>
           <select type="text" id="contact-state" class="contact-input">
             <option value="0">Select a state</option>
+            <option value="7">New South Wales</option>
             <option value="1">Victoria</option>
             <option value="2">Australian Capital Territory</option>
             <option value="3">Northern Territory</option>
             <option value="4">Queensland</option>
             <option value="5">South Australia</option>
             <option value="6">Western Australia</option>
-            <option value="7">New South Wales</option>
-            <option value="7">Hobart</option>
+            <option value="7">Tasmania</option>
             <option value="9">International</option>
           </select>
           <div id="contact-email-label" class="contact-label">Email*</div>
