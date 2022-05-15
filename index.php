@@ -3,8 +3,8 @@
 
 <head>
   <?php include "head.php" ?>
+  <link rel="stylesheet" href="./css/glide.css">
   <link rel="stylesheet" href="./css/home.css">
-
 </head>
 
 
@@ -58,7 +58,7 @@
     <div class="section-container" id="our-vision">
       <div class="section-background-overlay"></div>
       <div class="section">
-        <img class="arrow-leftofscreen">  
+        <img class="arrow-leftofscreen">
         <div class="section-subheading">Our Vision</div>
         <div class="section-text">
           To provide activity-based services that stimulate the brain, improve strength and build social connections in
@@ -99,6 +99,25 @@
       </div>
 
     </div>
+
+    <div class="section-container">
+    <div class="section-subheading" style="margin-bottom:32px;">Our sponsors</div>
+      <div class="section glide-parent">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide"><div class="glide-title">Norths Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
+              <li class="glide__slide"><div class="glide-title">Souths Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
+              <li class="glide__slide"><div class="glide-title">Easts Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
+              <li class="glide__slide"><div class="glide-title">Wests Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="./js/glide.js"></script>
+
 
     <?php include 'footer.php'; ?>
 
