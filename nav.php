@@ -67,7 +67,7 @@
 <div class="nav-space"></div>
 
 <div id="nav-mobile-options-container">
-  <a class="nav-mobile-option" href="./donate.php">
+  <a class="nav-mobile-option" href="./">
     Donate
   </a>
   <!--

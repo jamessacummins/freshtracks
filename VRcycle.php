@@ -78,9 +78,9 @@
 
         <div class="section-container" id="monitor-progress">
             <div class="section2">
-            <img class="arrow-leftofscreen">
+                <img class="arrow-leftofscreen">
                 <div class="section-text">
-                    <h2> How can I monitor progress? </h2>
+                <div class="section-subheading"> How can I monitor progress? </div>
                     <br>
                     As a Carer or family member who is monitoring the progress of a Client using the VRcycle then simply
                     log onto the Fresh Tracks site and you can monitor the progress of one or more of your Clients.<br>
