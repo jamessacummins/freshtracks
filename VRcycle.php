@@ -91,7 +91,7 @@
                     These Ability scores are also displayed in a ‘Radar chart” allowing a comparison between each of the
                     five games the Rider can play.
                 </div>
-                <img class="section-image-dash" src="img/dashboard.png">
+                <img class="section-image-dash" src="./img/dashboard.png">
             </div>
         </div>
     </div>
