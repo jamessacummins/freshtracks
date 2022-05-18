@@ -39,7 +39,6 @@
             <div class="section1">
                 <img class="arrow-leftofscreen">
                 <div class="section-subheading">What is the VRcycle?</div>
-                <br>
                 <div class="section-text">
                     The VRcycle is built using a recumbent exercise bike that has been modified to include hand brakes,
                     steering, blinkers and the monitoring of pedal rotation. As the Rider pedals and steers the computer
