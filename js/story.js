@@ -4,7 +4,9 @@ let stories = [
         "imageURL": "sam.jpg",
         "title": "Sam's Journey to Empowerment",
         "tag": "STRENGTH",
-        "intro": "Sam was told that he would never be able to move his legs again. Two years later he has regained full use of his legs and regularly cycles.",
+        "intro": `Sam Carson was 27 when he fell four stories at a party, in October 2009. He suffered a
+        traumatic brain injury, and doctors at Sydney’s Royal North Shore Hospital did not expect
+        him to survive the night.`,
         "story": `Sam Carson was 27 when he fell four stories at a party, in October 2009. He suffered a
         traumatic brain injury, and doctors at Sydney’s Royal North Shore Hospital did not expect
         him to survive the night. He underwent major surgery and emerged from a coma days later.
@@ -38,7 +40,9 @@ let stories = [
         "imageURL": "kevin.jpg",
         "title": "Kevin Rides 150km for Charity",
         "tag": "DETERMINATION",
-        "intro": "When Kevin Lu got dealt a bad hand, he decided to make the best of it. This year he rode 150km to help raise awareness for ABIs.",
+        "intro": `Prior to his accident, Kevin was a regular 20 year old. He was studying Exercise Physiology at the University of Sydney, 
+        juggled two jobs (teaching kids how to swim and selling bicycles at a local retail store), was half way through an internship with 
+        the Sydney University Rugby Club, and managed to squeeze in friends, a loving girlfriend and a passion for road cycling in between!`,
         "story": `Prior to his accident, Kevin was a regular 20 year old. He was studying Exercise Physiology at the University of Sydney, 
         juggled two jobs (teaching kids how to swim and selling bicycles at a local retail store), was half way through an internship with 
         the Sydney University Rugby Club, and managed to squeeze in friends, a loving girlfriend and a passion for road cycling in between!
@@ -71,7 +75,10 @@ let stories = [
         "imageURL": "steve.JPG",
         "title": "Steve Breaks the World Record",
         "tag": "ACHIEVEMENT",
-        "intro": "Steve proved this year, that you can truly acheive anything you put your mind to, breaking the world record for the 400m sprint at the paralympics.",
+        "intro": `Steve is a very charismatic personality, that everybody loves and enjoys 
+        to share their time with. Every winter on saturdays this was Steve’s one day 
+        of the week where he did the 1 thing he loved the most – playing rugby with 
+        his mates.`,
         "story": `Steve is a very charismatic personality, that everybody loves and enjoys 
         to share their time with. Every winter on saturdays this was Steve’s one day 
         of the week where he did the 1 thing he loved the most – playing rugby with 
@@ -121,10 +128,11 @@ let stories = [
             From Steve’s biggest fan, his sister Kelly x`,
     },
 
+
     {
         "id": 3,
         "imageURL": "emilie.jpg",
-        "title": "Providing help where it is needed",
+        "title": "Emilie’s Determination",
         "tag": "HOPE",
         "intro": "At 22 years old I had moved out of the family home in Sydney and headed for Melbourne. Things were going really well. I had made some good friends, was working locally and was living in a home with a beautiful little garden...",
         "story":`At 22 years old I had moved out of the family home in Sydney and headed for Melbourne.
@@ -190,7 +198,6 @@ let stories = [
     },
 
 
-
     {
         "id": 4,
         "imageURL": "Paul.jpg",
@@ -239,7 +246,7 @@ let stories = [
         So many years after the accident Paul now considers he is really “home”.
         At Weemala he is so happy to be close to his parents, sister, other family
         and friends who visit him regularly. From Paul’s point of view “all’s good”. `
-    }
+    },
 
 ];
 
