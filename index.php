@@ -106,10 +106,12 @@
         <div class="glide">
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
+              <li class="glide__slide"><div class="glide-title">Rotary Club Lindfield</div><img width="80%" class="glide-image" src="./img/sponsors/rotary-lindfield.jpg"/> </li>
               <li class="glide__slide"><div class="glide-title">Norths Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
-              <li class="glide__slide"><div class="glide-title">Souths Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
-              <li class="glide__slide"><div class="glide-title">Easts Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
-              <li class="glide__slide"><div class="glide-title">Wests Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
+              <li class="glide__slide"><div class="glide-title">The Primary Club of Australia</div><img width="80%" class="glide-image" src="./img/sponsors/primary-club.png"/> </li>
+              <li class="glide__slide"><div class="glide-title">Royal Rehab</div><img width="80%" class="glide-image" src="./img/sponsors/royal-rehab.svg"/> </li>
+              <li class="glide__slide"><div class="glide-title">Kuringgai Council</div><img width="80%" class="glide-image" src="./img/sponsors/kmc.png"/> </li>
+              <li class="glide__slide"><div class="glide-title">HART</div><img width="80%" class="glide-image" src="./img/sponsors/hart.png"/> </li>
             </ul>
           </div>
         </div>
