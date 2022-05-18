@@ -98,7 +98,7 @@
 
 #monitor-progress .section-image-dash {
     float: left;
-    width:90%;
+    width:100%;
     max-width: 400px;
     position: relative;
     object-fit: cover;
@@ -137,28 +137,24 @@
         font-size: 18px;
         float: unset;
     }
-
-
-
     #monitor-progress .section-image-dash {
-        float: left;
-        min-width: 15%;
-        max-width: 60%;
-        width: 60%;
-        max-height: 800px;
-        height: auto;
-        left: 5%;
-        margin-top: 10%;
+        left: 0%;
+        float: none;
+        margin: 64px 32px;
+        width: 80%;
+        max-width: 600px;
+    }
+    
+    #monitor-progress .section2{
+        z-index: 10;
+        width: 90%;
+        max-width: 800px;
         position: relative;
-        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     }
-
-    #monitor-progress .section-text{
-        width: 50%;
-        margin-top: 0%;
-
-    }
-
 
 }
 
@@ -168,6 +164,7 @@
     margin: 64px 32px;
     width: 80%;
     max-width: 600px;
+    
     
 }
 
@@ -180,4 +177,6 @@
     flex-direction: column;
     align-items: center;
 }
+
+
 }
