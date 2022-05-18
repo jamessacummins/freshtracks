@@ -58,6 +58,7 @@
 }
 
 .contact-input {
+  background-color: #FF880022;
   margin-top:8px;
   padding:8px;
 
@@ -72,6 +73,7 @@
 }
 
 #contact-comment{
+  background-color: #FF880022;
   height:200px;
   display:flex;
   flex-wrap: wrap;
