@@ -27,10 +27,16 @@
           Send us a message
         </div>
         <form action="" id="contact-form">
-          <div id="contact-name-label" class="contact-label">
-            Name*
+        <div id="contact-name-label" class="contact-label">
+            First Name*
           </div>
           <input type="text" id="contact-name" class="contact-input">
+          <div id="contact-name-label" class="contact-label">
+            Last Name*
+          </div>
+          <input type="text" id="contact-name" class="contact-input">
+          <div id="contact-email-label" class="contact-label">Email*</div>
+          <input type="text" id="contact-email" class="contact-input">
           <div id="contact-state-label" class="contact-label">
             State*
           </div>
@@ -46,9 +52,7 @@
             <option value="7">Tasmania</option>
             <option value="9">International</option>
           </select>
-          <div id="contact-email-label" class="contact-label">Email*</div>
-          <input type="text" id="contact-email" class="contact-input">
-          <div id="contact-query-label" class="contact-label">Comment</div>
+          <div id="contact-query-label" class="contact-label">Would you like to leave us a message?</div>
           <textarea type="text" id="contact-comment" class="contact-input"></textarea>
           <div id="contact-submit-button">Submit</div>
         </form>
@@ -57,7 +61,7 @@
     <div id="contact-right">
       <div id="reach-out-container">
         <div class="contact-header">
-          Or reach out
+          Our details
         </div>
         <div class="contact-sub-header">ABN</div>
         <div class="contact-text">49 197 492 992</div>
