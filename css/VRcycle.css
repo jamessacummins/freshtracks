@@ -44,10 +44,13 @@
     width: auto;
     max-width: 800px;
     width: auto;
-    min-width: 500px;
     color: black;
     position: relative;
     align-items: center;
+
+
+
+    
 
 }
 
@@ -76,12 +79,13 @@
 }
 
 #monitor-progress .section2{
-    width: 80%;
-    align-items: center;
-    padding: 64px 0;
-    position: relative;
-    display: flex;
     z-index: 10;
+        width: 90%;
+        max-width: 800px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
 
@@ -97,13 +101,10 @@
 
 
 #monitor-progress .section-image-dash {
-    float: left;
-    width:100%;
-    max-width: 400px;
-    position: relative;
-    object-fit: cover;
-    left: 10%;
-    top: 5%;
+    
+        margin: 64px 32px;
+        width: 80%;
+        max-width: 600px;
     
 }
 
@@ -137,24 +138,9 @@
         font-size: 18px;
         float: unset;
     }
-    #monitor-progress .section-image-dash {
-        left: 0%;
-        float: none;
-        margin: 64px 32px;
-        width: 80%;
-        max-width: 600px;
-    }
+
     
-    #monitor-progress .section2{
-        z-index: 10;
-        width: 90%;
-        max-width: 800px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     
-    }
 
 }
 
@@ -177,6 +163,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+#what-is-the-vrcycle .section1 .arrow-leftofscreen{
+    left:15vw;
+  }
 
 
 }
