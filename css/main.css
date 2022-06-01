@@ -6,6 +6,7 @@
 :root{
   --orange: #FF8800;
   --yellow: #FFFCDD;
+  --animate-delay: 0.35s;
 }
 
 * {

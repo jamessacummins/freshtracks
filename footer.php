@@ -20,3 +20,4 @@
         </div>
       </div>
     </footer>
+    <script src="js/animate.js"></script>
