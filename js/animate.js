@@ -24,7 +24,7 @@ for (fadeElement of fadeArray) {
 }
 
 // the below selects elements that we want to grow and shrink on hover
-var zoomArray = Array.from(document.querySelectorAll(".donate-cta, #donate-image, #hero-donate-button, .section-icon, .section-image"));
+var zoomArray = Array.from(document.querySelectorAll(".donate-cta, #donate-image, #hero-donate-button, .section-icon, .section-image, .section-image-dash, .section-image-top"));
 // it then loops through these scaling elements up on mouseenter over a set period (transform .4s) and scaling down on mouseleave to original size
 for (zoomElement of zoomArray) {
     zoomElement.addEventListener("mouseenter", event => {
