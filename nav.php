@@ -1,16 +1,44 @@
 <link rel="stylesheet" href="css/nav.css">
 
-<nav id="navbar">
-  <a class="logo-link" href="./">
+<nav class="shadow">
+  <div id="nav-parent-container">
+    <img src="../img/small-logo.png" alt="logo" id="logo">
+    <div id="nav-items-container">
+      <a class="nav-item" id="what-we-do">What we do</a>
+      <a class="nav-item" id="changing-lives">Changing lives</a>
+      <a class="nav-item" href="./contact.php">Contact</a>
+      <a class="nav-item" href="./login.php">Login</a>
+    </div>
+    <a id="donate-button" href="/">
+      Donate
+    </a>
+  </div>
+  <div id="nav-liner"></div>
+  <div class="nav-sub-item-parent" data-parent="what-we-do">
+    <a class="nav-sub-item" href="./VRcycle.php">
+      Indoor Cycling
+    </a>
+    <a class="nav-sub-item" href="./outdoor.php">
+      Outdoor Cycling
+    </a>
+  </div>
+  <div class="nav-sub-item-parent" data-parent="changing-lives">
+    <a class="nav-sub-item" href="./stories.php">
+      Our Stories
+    </a>
+    <a class="nav-sub-item" href="./abi.php">
+      Acquired Brain Injuries
+    </a>
+  </div>
+</nav>
+<div id="nav-bully"></div>
+
+<script src="js/nav.js"> </script>
+  <!-- <a class="logo-link" href="./">
     <img id="nav-logo">
   </a>
   <div id="nav-main-container">
     <ul id="nav-items-container">
-      <!--
-      <li class="nav-item">
-        <a class="nav-link" href="./volunteer.php">Volunteer</a>
-      </li>
--->
       <li 
         class="nav-item" 
         onmouseover="toggleSubItemsOn('what-we-do')" 
@@ -70,11 +98,6 @@
   <a class="nav-mobile-option" href="./">
     Donate
   </a>
-  <!--
-  <a class="nav-mobile-option" href="./volunteer.php">
-    Volunteer
-  </a>  
-  -->
   <a class="nav-mobile-option" onclick="toggleMobileSubItems('what-we-do-m')" id="what-we-do-m">
     What we do
   </a>
@@ -99,4 +122,4 @@
   <a class="nav-mobile-option" href="./login.php">
     Login
   </a>
-</div>
+</div> -->

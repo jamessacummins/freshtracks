@@ -8,14 +8,11 @@
 
 
 <body>
-
+    <?php include "nav.php" ?>
     <div id="main-login-container">
         <div id="login-background">
         </div>
         <div id="login-container">
-            <a id="login-return" href="/">
-                Return to main site
-            </a>
             <div id="login-logo">
                 <img src="./img/logo.svg" alt="">
             </div>

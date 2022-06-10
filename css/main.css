@@ -2,11 +2,14 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
   --orange: #FF8800;
   --yellow: #FFFCDD;
+  --new-yellow: #FFD600;
   --animate-delay: 0.35s;
+  --header-font: 'PT Sans', sans-serif;;
 }
 
 * {

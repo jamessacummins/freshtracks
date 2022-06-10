@@ -1,3 +1,122 @@
+nav{
+    width:100%;
+    height:120px;
+    background-color: #fefefe;
+
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+#nav-bully{
+    width:100%;
+    height:120px;
+}
+
+#nav-parent-container{
+    display:flex;
+    align-items: center;
+    height:110px;
+    width:100%;
+}
+
+#nav-liner{
+    background-color: var(--new-yellow);
+    height:10px;
+    width:100%;
+}
+
+#logo{
+    margin-top:30px;
+    margin-left:20px;
+    height: 120px;
+}
+
+#donate-button{
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: var(--new-yellow);
+
+    font-family:var(--header-font);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:600;
+
+    padding: 16px 32px;
+    margin-left:auto;
+    margin-right: 20px;
+}
+
+#nav-items-container{
+    width:100%;
+    height:100%;
+    
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap:20px;
+}
+
+.nav-item{
+    width:120px;
+    height:120px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family:var(--header-font);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.nav-item:hover{
+    color:var(--orange);
+}
+
+.nav-sub-item-parent{
+    background-color: var(--new-yellow);
+    width:240px;
+    padding: 32px 0;
+
+    font-family:var(--header-font);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:600;
+
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+    position:absolute;
+}
+
+.nav-sub-item{
+    width:120px;
+    padding: 16px 0px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-sub-item:hover{
+    color:var(--orange);
+}
+
+/*
+
 #navbar{
     width:100%;
     height:110px;
@@ -14,7 +133,7 @@
 }
 
 #nav-logo{
-    content:url("../img/logo_square.svg");
+    content:url("../img/small-logo.png");
     height: 35px;
     width: auto;
     padding: 0 20px;
@@ -201,7 +320,6 @@
     #nav-mobile-options-container{
         display:none !important;
     }
-    #nav-logo{
-        content:url("../img/logo.svg");
-    }
 }
+
+*/
