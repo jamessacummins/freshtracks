@@ -2,14 +2,15 @@
     <footer>
       <div id="donate-parent-container">
         <div id="donate-container">
-          <div id="donate-heading">
-            We need your help
+          <div id="donate-heading-container">
+            <div id=donate-heading>We need your help</div>
+            <img id="donate-heading-brushstroke">
           </div>
           <img id="donate-image" src="img/donate.JPG">
           <div id="donate-text">
             We work hard to ensure resources are not duplicated and the effectiveness of every dollar spent is maximised
           </div>
-          <a class="donate-cta shadow" href="#donate">
+          <a class="donate-cta" href="#donate">
             Donate
           </a>
           
