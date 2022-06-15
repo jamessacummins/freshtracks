@@ -29,8 +29,20 @@ function turnSubItemParentOnAllOthersOff(parent){
     }
 }
 
-function triggerMobileSub(){
-    
+function toggleMobileNav(){
+    let mobileNavParent = document.querySelector("#mobile-nav-items-parent");
+    mobileNavParent.style.display == "flex" ? mobileNavParent.style.display = "none" : mobileNavParent.style.display = "flex";
+}
+
+function toggleMobileSub(id){
+    console.log("ran");
+    let parent = document.querySelector("#mobile-" + id);
+    let current = parent.nextElementSibling;
+    console.log(current.style.display);
+    while(current.classList.contains('mobile-sub-item')){
+        current.style.display != 'block' ? current.style.display = "block" : current.style.display = 'none';
+        current = current.nextElementSibling;
+    };
 }
 
 function turnAllSubItemsOff(){

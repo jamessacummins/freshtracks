@@ -2,7 +2,7 @@
 
 <nav class="shadow">
   <div id="nav-parent-container">
-    <a id="logo">
+    <a id="logo" href="./">
       <img id="logo-image" src="./img/small-logo.png">
     </a>
     <div id="nav-items-container">
@@ -14,7 +14,7 @@
     <a id="donate-button" href="/">
       Donate
     </a>
-    <img src="../img/hamburger2.svg" alt="menu" id="hamburger">
+    <img src="../img/hamburger2.svg" alt="menu" id="hamburger" onclick="toggleMobileNav()">
   </div>
   <div id="nav-liner"></div>
   <div class="nav-sub-item-parent" data-parent="what-we-do">
@@ -35,14 +35,14 @@
   </div>
   <div id="mobile-nav-items-parent">
     <a href="" class="mobile-nav-item">Donate</a>
-    <div onclick="triggerMobileSub()" class="mobile-nav-item">What we do</div>
-    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Indoor Cycling</a>
-    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Outdoor Cycling</a>
-    <div onclick="triggerMobileSub()" class="mobile-nav-item">Changing lives</div>
-    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Our Stories</a>
-    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Acquired Brain Injuries</a>
-    <a href="" class="mobile-nav-item">Contact</a>
-    <a href="" class="mobile-nav-item">Login</a>
+    <div onclick="toggleMobileSub('what-we-do')" id='mobile-what-we-do' class="mobile-nav-item">What we do</div>
+    <a href="./VRcycle.php" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Indoor Cycling</a>
+    <a href="./outdoor.php" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Outdoor Cycling</a>
+    <div onclick="toggleMobileSub('changing-lives')" id="mobile-changing-lives" class="mobile-nav-item">Changing lives</div>
+    <a href="./stories.php" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Our Stories</a>
+    <a href="./abi.php" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Acquired Brain Injuries</a>
+    <a href="./contact.php" class="mobile-nav-item">Contact</a>
+    <a href="./login.php" class="mobile-nav-item">Login</a>
   </div>
 </nav>
 <div id="nav-bully"></div>
