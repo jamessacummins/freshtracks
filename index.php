@@ -12,37 +12,34 @@
 
   <div class="main">
     <?php include "nav.php"; ?>
-    <div id="parent-hero-container">
-      <div id="first-hero-container">
-        <div id="first-hero-heading-container">
-          <div id="first-hero-heading">
-            Fresh Tracks helps people with brain injuries get on the track outside...
-          </div>
+    <section class="hero-container">
+      <video
+        class="hero-video"
+        src="/img/fresh-tracks-homepage-video.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="overlay-container">
+        <div class="helping-text-container">
+          <h1 class="helping-text">
+            Helping young people with brain injuries make
+          </h1>
         </div>
-        <img src="img/hero-image-1.jpg" id="first-hero-image">
-        <div id="first-hero-overlay"></div>
-      </div>
-      <div id="second-hero-container">
-        <div id="second-hero-heading-container">
-          <div id="second-hero-heading">
-            and inside
-          </div>
-          <div id="hero-donate-button-container">
-            <a id="hero-donate-button" href="#donate">
-              Donate now
-            </a>
-          </div>
+        <div>
+          <h1 class="fresh-tracks-text">Fresh Tracks</h1>
         </div>
-        <img id="second-hero-image">
-        <div id="second-hero-overlay"></div>
       </div>
-    </div>
+    </section>
 
     <!-- Text bottom top of bottom page -->
     <div class="section-container" id="how-we-help">
       <div class="section">
-        <div class="section-subheading">HOW WE HELP</div>
-        <img class="section-icon" src="img/brain.png">
+      <img class="arrow-rightofscreen">
+        <div class="section-subheading">
+          HOW WE HELP
+          <img class="section-brushstroke">
+        </div>
         <div class="section-text">
           Fresh Tracks provides supervised outdoor cycling using recumbent bikes and a home-based system called the
           VRcycle that combines a modified recumbent exercise cycle, computer tablet and specifically designed APP.
@@ -59,7 +56,10 @@
       <div class="section-background-overlay"></div>
       <div class="section">
         <img class="arrow-leftofscreen">
-        <div class="section-subheading">Our Vision</div>
+        <div class="section-subheading">
+          Our Vision
+          <img class="section-brushstroke">
+        </div>
         <div class="section-text">
           To provide activity-based services that stimulate the brain, improve strength and build social connections in
           young people who have suffered an acquired brain injury.
@@ -71,7 +71,10 @@
     <div class="section-container" id="why-we-started">
       <div class="section">
         <img class="arrow-rightofscreen">
-        <div class="section-subheading">why we started</div>
+        <div class="section-subheading">
+          why we started
+          <img class="section-brushstroke">
+        </div>
         <img class="section-image shadow" src="img/sam.jpg">
         </img>
         <div class="section-text">
@@ -101,20 +104,26 @@
     </div>
 
     <div class="section-container">
-    <div class="section-subheading" style="margin-bottom:32px;">Our sponsors</div>
-      <div class="section glide-parent">
-        <div class="glide">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide"><div class="glide-title">Rotary Club Lindfield</div><img width="80%" class="glide-image" src="./img/sponsors/rotary-lindfield.jpg"/> </li>
-              <li class="glide__slide"><div class="glide-title">Norths Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
-              <li class="glide__slide"><div class="glide-title">The Primary Club of Australia</div><img width="80%" class="glide-image" src="./img/sponsors/primary-club.png"/> </li>
-              <li class="glide__slide"><div class="glide-title">Royal Rehab</div><img width="80%" class="glide-image" src="./img/sponsors/royal-rehab.svg"/> </li>
-              <li class="glide__slide"><div class="glide-title">Kuringgai Council</div><img width="80%" class="glide-image" src="./img/sponsors/kmc.png"/> </li>
-              <li class="glide__slide"><div class="glide-title">HART</div><img width="80%" class="glide-image" src="./img/sponsors/hart.png"/> </li>
-            </ul>
-          </div>
+      <div class="section">
+      <img class="arrow-leftofscreen">
+        <div class="section-subheading" style="margin-bottom:64px;">
+          Our sponsors
+          <img class="section-brushstroke">
         </div>
+          <div class="section glide-parent">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide"><div class="glide-title">Rotary Club Lindfield</div><img width="80%" class="glide-image" src="./img/sponsors/rotary-lindfield.jpg"/> </li>
+                  <li class="glide__slide"><div class="glide-title">Norths Rugby</div><img width="80%" class="glide-image" src="./img/sponsors/norths-rugby.png"/> </li>
+                  <li class="glide__slide"><div class="glide-title">The Primary Club of Australia</div><img width="80%" class="glide-image" src="./img/sponsors/primary-club.png"/> </li>
+                  <li class="glide__slide"><div class="glide-title">Royal Rehab</div><img width="80%" class="glide-image" src="./img/sponsors/royal-rehab.svg"/> </li>
+                  <li class="glide__slide"><div class="glide-title">Kuringgai Council</div><img width="80%" class="glide-image" src="./img/sponsors/kmc.png"/> </li>
+                  <li class="glide__slide"><div class="glide-title">HART</div><img width="80%" class="glide-image" src="./img/sponsors/hart.png"/> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>

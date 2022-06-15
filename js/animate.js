@@ -17,7 +17,7 @@ const ob = new IntersectionObserver(obCallback);
 
 
 // the below selects elements that we want to fade and then adds a fade class and passes them to the observer above
-var fadeArray = Array.from(document.querySelectorAll(".section-container, #parent-hero-container, footer, .parent-topbar-container, #contact-parent"));
+var fadeArray = Array.from(document.querySelectorAll(".section-container, .hero-container, footer, .parent-topbar-container, #contact-parent"));
 for (fadeElement of fadeArray) {
     fadeElement.classList.add("fade");
     ob.observe(fadeElement);

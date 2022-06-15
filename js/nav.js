@@ -29,6 +29,10 @@ function turnSubItemParentOnAllOthersOff(parent){
     }
 }
 
+function triggerMobileSub(){
+    
+}
+
 function turnAllSubItemsOff(){
     for(subItemParent of navSubItemParents){
         subItemParent.style.display = 'none';

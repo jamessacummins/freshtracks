@@ -2,7 +2,7 @@
 
 <nav class="shadow">
   <div id="nav-parent-container">
-    <img src="../img/small-logo.png" alt="logo" id="logo">
+    <a id="logo"></a>
     <div id="nav-items-container">
       <a class="nav-item" id="what-we-do">What we do</a>
       <a class="nav-item" id="changing-lives">Changing lives</a>
@@ -12,6 +12,7 @@
     <a id="donate-button" href="/">
       Donate
     </a>
+    <img src="../img/hamburger2.svg" alt="menu" id="hamburger">
   </div>
   <div id="nav-liner"></div>
   <div class="nav-sub-item-parent" data-parent="what-we-do">
@@ -30,11 +31,22 @@
       Acquired Brain Injuries
     </a>
   </div>
+  <div id="mobile-nav-items-parent">
+    <a href="" class="mobile-nav-item">Donate</a>
+    <div onclick="triggerMobileSub()" class="mobile-nav-item">What we do</div>
+    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Indoor Cycling</a>
+    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Outdoor Cycling</a>
+    <div onclick="triggerMobileSub()" class="mobile-nav-item">Changing lives</div>
+    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Indoor Cycling</a>
+    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Outdoor Cycling</a>
+    <a href="" class="mobile-nav-item">Contact</a>
+    <a href="" class="mobile-nav-item">Login</a>
+  </div>
 </nav>
 <div id="nav-bully"></div>
 
 <script src="js/nav.js"> </script>
-  <!-- <a class="logo-link" href="./">
+<!-- <a class="logo-link" href="./">
     <img id="nav-logo">
   </a>
   <div id="nav-main-container">
