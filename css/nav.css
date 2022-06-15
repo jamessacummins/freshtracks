@@ -34,19 +34,17 @@ a{
 }
 
 #logo{
-    margin-top:30px;
+    margin-top:50px;
     margin-left:20px;
 
-    background: url("../img/small-logo.png");
-    background-repeat: no-repeat;
-    background-size: 120px auto;
-
-    height:120px;
-    width: 120px;
+    min-height:120px;
+    width:120px;
 
     z-index: 110;
+}
 
-
+#logo-image{
+    height:120px;
 }
 
 #donate-button{
@@ -158,7 +156,7 @@ a{
 
         z-index: 105;
 
-        display:flex;
+        display:none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -183,9 +181,12 @@ a{
         padding: 16px 0px;
         margin-right:16px;
         margin-left:auto;
+
+        cursor: pointer;
+        user-select: none;
     }
     .mobile-sub-item{
-        background: #eaeaea;
+        background: var(--orange);
     }
 }
 

@@ -2,7 +2,9 @@
 
 <nav class="shadow">
   <div id="nav-parent-container">
-    <a id="logo"></a>
+    <a id="logo">
+      <img id="logo-image" src="./img/small-logo.png">
+    </a>
     <div id="nav-items-container">
       <a class="nav-item" id="what-we-do">What we do</a>
       <a class="nav-item" id="changing-lives">Changing lives</a>
@@ -37,8 +39,8 @@
     <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Indoor Cycling</a>
     <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Outdoor Cycling</a>
     <div onclick="triggerMobileSub()" class="mobile-nav-item">Changing lives</div>
-    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Indoor Cycling</a>
-    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Outdoor Cycling</a>
+    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Our Stories</a>
+    <a href="" class ="mobile-nav-item mobile-sub-item" data-parent="what-we-do">Acquired Brain Injuries</a>
     <a href="" class="mobile-nav-item">Contact</a>
     <a href="" class="mobile-nav-item">Login</a>
   </div>
