@@ -21,8 +21,11 @@ for(subItemParent of navSubItemParents){
 function turnSubItemParentOnAllOthersOff(parent){
     for(subItemParent of navSubItemParents){
         if(subItemParent.dataset.parent == parent){
+            let parentElement = document.querySelector("#" + parent);
+            let offsetWidth = (240 - parentElement.offsetWidth) / 2;
+            offsetWidth = parentElement.getBoundingClientRect().left - offsetWidth;
             subItemParent.style.display = 'flex';
-            subItemParent.style.left = (-60 + document.querySelector("#" + parent).getBoundingClientRect().left) + "px";
+            subItemParent.style.left =  offsetWidth + "px";
         } else {
             subItemParent.style.display = 'none';
         }
